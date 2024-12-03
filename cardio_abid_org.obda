@@ -1,0 +1,24 @@
+[PrefixDeclaration]
+:		http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology/
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+obda:		https://w3id.org/obda/vocabulary#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+CardiovascularDiseaseOntology:	http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#
+
+[MappingDeclaration] @collection [[
+mappingId	MAPID-8c5860082c7b49fa86952ea1b4b70e0f
+target		:cvo_diseases/treatment/ a CardiovascularDiseaseOntology:Treatment ; CardiovascularDiseaseOntology:has_Treatment_Id {Treatment_Id}^^xsd:integer ; CardiovascularDiseaseOntology:has_Treatment_Date {Treatment_Date}^^xsd:dateTime ; CardiovascularDiseaseOntology:has_Dosage {dosage}^^xsd:string ; CardiovascularDiseaseOntology:has_Duration {duration}^^xsd:string ; CardiovascularDiseaseOntology:has_Medication {medication}^^xsd:string . 
+source		select * from treatment
+
+mappingId	MAPID-a3ae55bc4601463e9c5f51fde8659aba
+target		:cvo_diseases/medical_history/ a CardiovascularDiseaseOntology:Medical_History ; CardiovascularDiseaseOntology:has_Medical_History_Id {Medical_History_Id}^^xsd:integer ; CardiovascularDiseaseOntology:has_Medical_Condition {Medical_Condition}^^xsd:string ; CardiovascularDiseaseOntology:has_Start_Date {Start_Date}^^xsd:dateTime ; CardiovascularDiseaseOntology:has_End_Date {End_Date}^^xsd:dateTime ; CardiovascularDiseaseOntology:has_Status {Status}^^xsd:string . 
+source		select * from medical_history
+
+mappingId	MAPID-245f38397a2849a9882ce89b1b8f01d8
+target		:cvo_diseases/role/ a CardiovascularDiseaseOntology:Role ; CardiovascularDiseaseOntology:has_Role_Id {Role_Id}^^xsd:integer ; CardiovascularDiseaseOntology:has_Role_Firstname {Role_Firstname}^^xsd:string ; CardiovascularDiseaseOntology:has_Role_Lastname {Role_Lastname}^^xsd:string ; CardiovascularDiseaseOntology:has_Specialization {Specialization}^^xsd:string ; CardiovascularDiseaseOntology:has_Email {Email}^^xsd:string ; CardiovascularDiseaseOntology:has_Address {Address}^^xsd:string ; CardiovascularDiseaseOntology:has_Contact_Number {Contact_Number}^^xsd:string . 
+source		select * from role
+]]
+

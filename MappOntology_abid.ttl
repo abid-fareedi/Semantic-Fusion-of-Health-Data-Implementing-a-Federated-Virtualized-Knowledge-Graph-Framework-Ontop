@@ -1,0 +1,3729 @@
+@prefix CardiovascularDiseaseOntology: <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology> a owl:Ontology .
+
+CardiovascularDiseaseOntology:2-3_Years a CardiovascularDiseaseOntology:Work_Experience_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:5-6_Years a CardiovascularDiseaseOntology:Work_Experience_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:8-10_Years a CardiovascularDiseaseOntology:Work_Experience_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Ability_to_Analyze_Excellent_Level a CardiovascularDiseaseOntology:Ability_to_Analyze_Situation,
+        CardiovascularDiseaseOntology:General_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Ability_to_Handle_Stituation_Strong_Level a CardiovascularDiseaseOntology:Ability_to_Handle_Situation,
+        CardiovascularDiseaseOntology:General_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Acceptance_High_Level a CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Cultural_Competence,
+        CardiovascularDiseaseOntology:InterCultural_Sensitivity,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Active a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Acupuncture a CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Acute_Cardiovascular_Diseases_Specialist a CardiovascularDiseaseOntology:Acute_Diseases_Specialist,
+        CardiovascularDiseaseOntology:Specialist_Area_Comptence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Additional_Nurse1 a CardiovascularDiseaseOntology:Additional_Nurse_Role,
+        CardiovascularDiseaseOntology:Medical_Nurse_Role,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Alcohol a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:BSN_BNurs_BSc_MN a CardiovascularDiseaseOntology:Educational_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Biggner_Trainee a CardiovascularDiseaseOntology:Work_Experience_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Bypass_Surgery a CardiovascularDiseaseOntology:Heart_Surgery_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:CETP_Inhibitors a CardiovascularDiseaseOntology:Blood_Pressure_Reduce_Medications,
+        CardiovascularDiseaseOntology:Medication,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Canada a CardiovascularDiseaseOntology:Country,
+        CardiovascularDiseaseOntology:Geographic_Location,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiac_Resynchronization_Therapy a CardiovascularDiseaseOntology:Implant_Devices_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardio a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Cardiovascular_Administration_Department a CardiovascularDiseaseOntology:Administration_Department,
+        CardiovascularDiseaseOntology:Health_Organization,
+        CardiovascularDiseaseOntology:Public_Hospital,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiovascular_Emergency_Department a CardiovascularDiseaseOntology:Emergency_Department,
+        CardiovascularDiseaseOntology:Health_Organization,
+        CardiovascularDiseaseOntology:Public_Hospital,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiovascular_General_Department a CardiovascularDiseaseOntology:Cardiology_Department,
+        CardiovascularDiseaseOntology:General_Department,
+        CardiovascularDiseaseOntology:Health_Organization,
+        CardiovascularDiseaseOntology:Public_Hospital,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Chil_Specialist_Practitioner1 a CardiovascularDiseaseOntology:Child_Specialist_Practitioner_Role,
+        CardiovascularDiseaseOntology:Medical_Practitioner_Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Chiropractic_Therapy a CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cholesterol a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Chronic_Cardiovascular_Diseases_Specialist a CardiovascularDiseaseOntology:Chronic_Diseases_Specialist,
+        CardiovascularDiseaseOntology:Specialist_Area_Comptence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:City a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Geographic_Location .
+
+CardiovascularDiseaseOntology:Cognitive_Behavioural_Therapy a CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Coronary_Angioplasty_and_Stents_\(PCI\) a CardiovascularDiseaseOntology:Stenting_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Country_Council a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Geographic_Location .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_0.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        18393 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 168 ;
+    CardiovascularDiseaseOntology:Patient_Weight 62 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_1.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        20228 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 156 ;
+    CardiovascularDiseaseOntology:Patient_Weight 85 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 140 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_12.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        22584 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 3 ;
+    CardiovascularDiseaseOntology:Patient_Height 178 ;
+    CardiovascularDiseaseOntology:Patient_Weight 95 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_13.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        17668 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 158 ;
+    CardiovascularDiseaseOntology:Patient_Weight 71 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_14.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        19834 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 60 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 164 ;
+    CardiovascularDiseaseOntology:Patient_Weight 68 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_15.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        22530 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 169 ;
+    CardiovascularDiseaseOntology:Patient_Weight 80 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_16.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        18815 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 173 ;
+    CardiovascularDiseaseOntology:Patient_Weight 60 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_18.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 2,
+        14791 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 165 ;
+    CardiovascularDiseaseOntology:Patient_Weight 60 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_2.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        18857 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 165 ;
+    CardiovascularDiseaseOntology:Patient_Weight 64 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_21.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        19809 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 158 ;
+    CardiovascularDiseaseOntology:Patient_Weight 78 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_23.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        14532 ;
+    CardiovascularDiseaseOntology:Alcohol 1 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 181 ;
+    CardiovascularDiseaseOntology:Patient_Weight 95 ;
+    CardiovascularDiseaseOntology:Smoke 1 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_24.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 2,
+        16782 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 172 ;
+    CardiovascularDiseaseOntology:Patient_Weight 112 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_25.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        21296 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 170 ;
+    CardiovascularDiseaseOntology:Patient_Weight 75 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_27.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        16747 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 3 ;
+    CardiovascularDiseaseOntology:Patient_Height 158 ;
+    CardiovascularDiseaseOntology:Patient_Weight 52 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_28.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        17482 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 154 ;
+    CardiovascularDiseaseOntology:Patient_Weight 68 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 100 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_29.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        21755 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 162 ;
+    CardiovascularDiseaseOntology:Patient_Weight 56 ;
+    CardiovascularDiseaseOntology:Smoke 1 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_3.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        17623 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 100 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 169 ;
+    CardiovascularDiseaseOntology:Patient_Weight 82 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 150 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_30.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        19778 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 163 ;
+    CardiovascularDiseaseOntology:Patient_Weight 83 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_31.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        21413 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 157 ;
+    CardiovascularDiseaseOntology:Patient_Weight 69 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_32.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        23046 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 2 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 85 ;
+    CardiovascularDiseaseOntology:Glucose 2 ;
+    CardiovascularDiseaseOntology:Patient_Height 158 ;
+    CardiovascularDiseaseOntology:Patient_Weight 90 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 145 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_33.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        23376 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 60 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 156 ;
+    CardiovascularDiseaseOntology:Patient_Weight 45 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_35.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        16608 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 170 ;
+    CardiovascularDiseaseOntology:Patient_Weight 68 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 150 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_36.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        14453 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 2 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 100 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 153 ;
+    CardiovascularDiseaseOntology:Patient_Weight 65 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_37.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        19559 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 156 ;
+    CardiovascularDiseaseOntology:Patient_Weight 59 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_38.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        18085 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 159 ;
+    CardiovascularDiseaseOntology:Patient_Weight 78 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_39.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        14574 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 166 ;
+    CardiovascularDiseaseOntology:Patient_Weight 66 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_4.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        17474 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 60 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 156 ;
+    CardiovascularDiseaseOntology:Patient_Weight 56 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 100 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_40.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 2,
+        21057 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 3 ;
+    CardiovascularDiseaseOntology:Patient_Height 169 ;
+    CardiovascularDiseaseOntology:Patient_Weight 74 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_42.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        18291 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 155 ;
+    CardiovascularDiseaseOntology:Patient_Weight 105 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_43.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        23186 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 169 ;
+    CardiovascularDiseaseOntology:Patient_Weight 71 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 140 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_44.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        14605 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 70 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 159 ;
+    CardiovascularDiseaseOntology:Patient_Weight 60 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 110 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_45.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        20652 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 85 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 160 ;
+    CardiovascularDiseaseOntology:Patient_Weight 73 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_46.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 2,
+        21940 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 1 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 173 ;
+    CardiovascularDiseaseOntology:Patient_Weight 82 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 140 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_47.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        20404 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 163 ;
+    CardiovascularDiseaseOntology:Patient_Weight 55 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_49.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 2,
+        18328 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 175 ;
+    CardiovascularDiseaseOntology:Patient_Weight 95 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_51.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        17976 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 1 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 90 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 164 ;
+    CardiovascularDiseaseOntology:Patient_Weight 70 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_8.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 0 ;
+    CardiovascularDiseaseOntology:Age 1,
+        21914 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 2 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 2 ;
+    CardiovascularDiseaseOntology:Patient_Height 151 ;
+    CardiovascularDiseaseOntology:Patient_Weight 67 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 120 .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results_9.0 a CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    CardiovascularDiseaseOntology:Active 1 ;
+    CardiovascularDiseaseOntology:Age 1,
+        22113 ;
+    CardiovascularDiseaseOntology:Alcohol 0 ;
+    CardiovascularDiseaseOntology:Cardio 0 ;
+    CardiovascularDiseaseOntology:Cholestrol 3 ;
+    CardiovascularDiseaseOntology:Diastolic_BP 80 ;
+    CardiovascularDiseaseOntology:Glucose 1 ;
+    CardiovascularDiseaseOntology:Patient_Height 157 ;
+    CardiovascularDiseaseOntology:Patient_Weight 93 ;
+    CardiovascularDiseaseOntology:Smoke 0 ;
+    CardiovascularDiseaseOntology:Systolic_BP 130 .
+
+CardiovascularDiseaseOntology:Diastolic_BP a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Education_Level_Strong a CardiovascularDiseaseOntology:Competence_Proficiency_Level,
+        CardiovascularDiseaseOntology:Education_Level,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Emergency_Cardiovascular_Ward1 a CardiovascularDiseaseOntology:Emergency_Cardiovascular_Ward,
+        CardiovascularDiseaseOntology:Medical_Ward,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Emergency_Department_Process1 a CardiovascularDiseaseOntology:Emergency_Department_Process,
+        CardiovascularDiseaseOntology:Process,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:English a CardiovascularDiseaseOntology:Language,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Entonox a CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Remedies_for_PreHospital_Care,
+        owl:NamedIndividual ;
+    rdfs:comment "Entonox is a mixture of a gas called nitrous oxide and oxygen. It is also called gas and air. You can breathe in Entonox to control pain and anxiety during some medical tests and procedures." .
+
+CardiovascularDiseaseOntology:Excercise-based_Cardiac_Excercise_Prgrams a CardiovascularDiseaseOntology:Physical_Activity,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Experience_Level_Excellent a CardiovascularDiseaseOntology:Competence_Proficiency_Level,
+        CardiovascularDiseaseOntology:Experience_Level,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Female=0> a CardiovascularDiseaseOntology:Female,
+        CardiovascularDiseaseOntology:Gender_or_Sex,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Fibrates a CardiovascularDiseaseOntology:Blood_Pressure_Reduce_Medications,
+        CardiovascularDiseaseOntology:Medication,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Force a CardiovascularDiseaseOntology:Anti-diabetic_Medication,
+        CardiovascularDiseaseOntology:Medication,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:French a CardiovascularDiseaseOntology:Language,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Gender a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:General_Cardiovascular_Ward1 a CardiovascularDiseaseOntology:General_Cardiovascular_Ward,
+        CardiovascularDiseaseOntology:Medical_Ward,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:General_Competence_Level_Strong a CardiovascularDiseaseOntology:Competence_Proficiency_Level,
+        CardiovascularDiseaseOntology:General_Competence_Level,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:General_Practitioner_Group1 a CardiovascularDiseaseOntology:General_Practitioner_Group,
+        CardiovascularDiseaseOntology:Occupational_Group,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Glucose a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal10:_To_make_easful_Emergency_Department_Check_In_Procedures> a CardiovascularDiseaseOntology:Cardiac_Pre_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal11:_To_Deploy_Assistive_Tools_for_Instant_Identification_of_Common_Diagnosis_at_Arrival> a CardiovascularDiseaseOntology:Cardiac_Pre_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal1:_Maintain_Physical_and_Lab_Tests_using_Resources_Effectiently> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal2:_Conduct_Wardround_Session_and_Evaluating_Patient_Medical_History_and_Lab_Tests> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal3:_To_Provide_Fast_and_Accurate_Triage_and_Risk_Straification_of_Critically_ill_Patients> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal4:_To_Determine_Emergency_Severity_Index_Catogories> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal5:_To_Provide_Individual_Supprot_to_Patients_Helping_them_to_Follow_their_Therapies> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal6:_To_Ensure_Rehabilitation_and_Discharge_Process_efficiently> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal7:_To_Achieve_effective_Decision_Making> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal8:_To_Ensure_Smooth_Information_Flow_Processes_in_Emergency_Department> a CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Goal9:_To_Follow_Patient_Long_term_Treatment_Plans_and_Rehabiliatation_Strategies> a CardiovascularDiseaseOntology:Cardiac_Post_Emergency_Department_Goal,
+        CardiovascularDiseaseOntology:Goals,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#HDL_Cholesterol_Ranged_[Value_number_60_mg/dL_[1.6mmol/L_or_above]]_for_Women> a CardiovascularDiseaseOntology:HDL_Cholesterol-Desireable,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#HDL_Cholesterol_Ranged_[Value_number_less_than_50_mg/dl_[1.3_mmol/L]]_for_Women> a CardiovascularDiseaseOntology:HDL_Cholesterol_At_Risk,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Head_Nurse1 a CardiovascularDiseaseOntology:Head_Nurse_Role,
+        CardiovascularDiseaseOntology:Medical_Nurse_Role,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Health_Informatics a CardiovascularDiseaseOntology:Medical_Specialization,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Healthing_Eating,_Managing_your_weight,_Understanding_risk_factors> a CardiovascularDiseaseOntology:Life_Style_Changes_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Heart_Surgery_Studies a CardiovascularDiseaseOntology:Educational_Field,
+        CardiovascularDiseaseOntology:Surgery,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Heart_Transplant a owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Heart_Valve_Surgery a CardiovascularDiseaseOntology:Heart_Surgery_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Hospital_Care_Management1 a CardiovascularDiseaseOntology:Cardiac_Management,
+        CardiovascularDiseaseOntology:Hospital_Care_Management,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:ICD_or_Pacemaker a CardiovascularDiseaseOntology:Implant_Devices_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Intercultural_Sensitivity_Level_Excellent a CardiovascularDiseaseOntology:Competence_Proficiency_Level,
+        CardiovascularDiseaseOntology:Intercultural_Sensitivity_Level,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Intermittent_Fasting_Plans a CardiovascularDiseaseOntology:Intermittent_Fasting,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Junior_Practitioner1 a CardiovascularDiseaseOntology:General_Practitoner_Role,
+        CardiovascularDiseaseOntology:Junior_Practitioner_Role,
+        CardiovascularDiseaseOntology:Medical_Practitioner_Role,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Lab_Coordinator1 a CardiovascularDiseaseOntology:Lab_Coordinator_Role,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Laboratory_Test_Expertise_Studies a CardiovascularDiseaseOntology:Educational_Field,
+        CardiovascularDiseaseOntology:Laboratory_Test_Education,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Language_Competence_Level_Strong a CardiovascularDiseaseOntology:Competence_Proficiency_Level,
+        CardiovascularDiseaseOntology:Cultural_Competence,
+        CardiovascularDiseaseOntology:Language_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Language_Proficiency_Level_Excellent a CardiovascularDiseaseOntology:Language_Level,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Left_Ventricular_Assist_Device a CardiovascularDiseaseOntology:Implant_Devices_Treatment,
+        CardiovascularDiseaseOntology:Treatment,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Low-fat_diary_foods,_Beans,_etc.> a CardiovascularDiseaseOntology:DASH_Diets,
+        CardiovascularDiseaseOntology:Diet,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#MBBS_MBchB_BMED_Dr._Med,_Ph.d> a owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:MBBS_MBchB_BMed_Dr._Med._Ph.d a CardiovascularDiseaseOntology:Educational_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:MD_MDCM_Cand._Med a CardiovascularDiseaseOntology:Educational_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:MOST_MAOT_MOT_OTD_Dr._OT a CardiovascularDiseaseOntology:Educational_Competence,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Magnesium_Supplement1 a CardiovascularDiseaseOntology:Dietry_Supplements,
+        CardiovascularDiseaseOntology:Magnesium_Supplementation,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Medical_Administrator1 a CardiovascularDiseaseOntology:Medical_Administrator_Role,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Medical_Consultant1 a CardiovascularDiseaseOntology:Medical_Consultant_Role,
+        CardiovascularDiseaseOntology:Medical_Practitioner_Role,
+        CardiovascularDiseaseOntology:Role,
+        CardiovascularDiseaseOntology:Surgeon_Practitioner_Role,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:examine_Sign_Symptoms CardiovascularDiseaseOntology:Cardiac_Tamponande1 .
+
+CardiovascularDiseaseOntology:Medical_Specialist_Group1 a CardiovascularDiseaseOntology:Medical_Specialist_Group,
+        CardiovascularDiseaseOntology:Occupational_Group,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Medicine_Studies a CardiovascularDiseaseOntology:Educational_Field,
+        CardiovascularDiseaseOntology:Medicine,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Niacin a CardiovascularDiseaseOntology:Blood_Pressure_Reduce_Medications,
+        CardiovascularDiseaseOntology:Medication,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nonsteroidal_Anti-inflammatory_Drugs a CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nursing a CardiovascularDiseaseOntology:Medical_Specialization,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nursing_Professional_Group1 a CardiovascularDiseaseOntology:Nursing_Professional_Group,
+        CardiovascularDiseaseOntology:Occupational_Group,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nusing_Studies_Acute_and_Chronic a CardiovascularDiseaseOntology:Educational_Field,
+        CardiovascularDiseaseOntology:Nursing_and_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Occupational_Therapist1 a CardiovascularDiseaseOntology:Occupational_Therapist_Role,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Out_Patient_Care_Management1 a CardiovascularDiseaseOntology:Cardiac_Management,
+        CardiovascularDiseaseOntology:Out_Patient_Care_Management,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Patient2 a CardiovascularDiseaseOntology:Patient_Role,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:TestDate "14-4-2017" ;
+    CardiovascularDiseaseOntology:Units "mmHg" ;
+    CardiovascularDiseaseOntology:attendingPatient_Role CardiovascularDiseaseOntology:Head_Nurse ;
+    CardiovascularDiseaseOntology:hasDiastolic_DBP "85" ;
+    CardiovascularDiseaseOntology:hasPatient_ID "19910131-BBBB" ;
+    CardiovascularDiseaseOntology:hasSystolic_SBP "124" .
+
+CardiovascularDiseaseOntology:Patient_Weight a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Person2 a CardiovascularDiseaseOntology:Female_Profile,
+        CardiovascularDiseaseOntology:Person_Profile,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Person3 a CardiovascularDiseaseOntology:Person_Profile,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:hasPatient_Role CardiovascularDiseaseOntology:Patient3 .
+
+CardiovascularDiseaseOntology:Poland a CardiovascularDiseaseOntology:Country,
+        CardiovascularDiseaseOntology:Geographic_Location,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Polish a CardiovascularDiseaseOntology:Language,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Post_Emergency_Department_Process1 a CardiovascularDiseaseOntology:Post_Emergency_Department_Process,
+        CardiovascularDiseaseOntology:Process,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Pre_Emergency_Department_Process1 a CardiovascularDiseaseOntology:Pre_Emergency_Department_Process,
+        CardiovascularDiseaseOntology:Process,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Pre_Hospital_Care_Management1 a CardiovascularDiseaseOntology:Cardiac_Management,
+        CardiovascularDiseaseOntology:Pre_Hospital_Care_Management,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Private_Hospital_or_Clincic1 a CardiovascularDiseaseOntology:Health_Organization,
+        CardiovascularDiseaseOntology:Private_Hospital_or_Clinic,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Problem_Solving_Ability_Excellent_Level a CardiovascularDiseaseOntology:General_Competence,
+        CardiovascularDiseaseOntology:Problem_Solving_Ability,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Public_Health_Adminstration_Studies a CardiovascularDiseaseOntology:Educational_Field,
+        CardiovascularDiseaseOntology:Health_Administration,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Recommmendations a owl:Class .
+
+CardiovascularDiseaseOntology:Skill_Competence_Level_Excellent a CardiovascularDiseaseOntology:Competence_Proficiency_Level,
+        CardiovascularDiseaseOntology:Skill_Level,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Smoke a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Supplemental_Oxygen a CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Remedies_for_PreHospital_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Support_and_Guidance_Ability_Excellent a CardiovascularDiseaseOntology:General_Competence,
+        CardiovascularDiseaseOntology:Support_and_Guidance_Ability,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Sweden a CardiovascularDiseaseOntology:Country,
+        CardiovascularDiseaseOntology:Geographic_Location,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Swedish a CardiovascularDiseaseOntology:Language,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Systolic_BP a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:Tasks a owl:Class .
+
+CardiovascularDiseaseOntology:TestDate a owl:DatatypeProperty ;
+    rdfs:comment "Patient Blood Test report" .
+
+CardiovascularDiseaseOntology:Units a owl:DatatypeProperty .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Unprocessed_cereals,_Olives_oil,_Fish,_Dairy_products,_Meat> a CardiovascularDiseaseOntology:Diet,
+        CardiovascularDiseaseOntology:Mediterranean_Diets,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Vegetables,_Fruits,_Whole_grains,_Legumes,_Nuts,_Seeds> a CardiovascularDiseaseOntology:Diet,
+        CardiovascularDiseaseOntology:Plant-based_Diets,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Vitamin_B3 a CardiovascularDiseaseOntology:Dietry_Supplements,
+        CardiovascularDiseaseOntology:Niacin_Supplementation,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Vitamin_E_and_Vitamin_C a CardiovascularDiseaseOntology:Antioxidant_Supplementation,
+        CardiovascularDiseaseOntology:Dietry_Supplements,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Yes a CardiovascularDiseaseOntology:Current_Smoking_Status,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:attendingPatient_Role a owl:FunctionalProperty,
+        owl:ObjectProperty .
+
+CardiovascularDiseaseOntology:cardiacDiseases_Associated a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiovascular_Diseases ;
+    rdfs:range CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:check_Medical_History a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Medical_History .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#eGFR-2_[Value_Range_between_[60-89]]-_Mild_Loss_of_Kindney_Function> a CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR,
+        CardiovascularDiseaseOntology:eGFR-Stage-2,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:examine_Cardiac_Diseases a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:examine_Sign_Symptoms a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:follow_DASH_Diets a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:DASH_Diets ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:follow_Diet .
+
+CardiovascularDiseaseOntology:follow_Intermittent_Fasting a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Intermittent_Fasting ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:followPreventive_Measures .
+
+CardiovascularDiseaseOntology:follow_Mediterranean_Diets a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Mediterranean_Diets ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:follow_Diet .
+
+CardiovascularDiseaseOntology:follow_Physical_Activity a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Physical_Activity ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:followPreventive_Measures .
+
+CardiovascularDiseaseOntology:follow_Plant-based_Diets a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Plant-based_Diets ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:follow_Diet .
+
+CardiovascularDiseaseOntology:hasDiastolic_DBP a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:hasHead_Nurse_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Head_Nurse_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:Medical_Nurse_Role .
+
+CardiovascularDiseaseOntology:hasMobile_Number a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:hasPatient_ID a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:hasSystolic_SBP a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:has_Acute_Coronary_Syndrome_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Acute_Coronary_Syndrome_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Acute_Heart_Failure a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Acute_Heart_Failure ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Heart_Failure .
+
+CardiovascularDiseaseOntology:has_Address a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Age a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Age ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Air_Polution a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Air_Polution ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Anemia a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Anemia ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Angina a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Angina ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Anxiety_Disorders a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Anxiety_Disorders ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Problems .
+
+CardiovascularDiseaseOntology:has_Aortic_Aneurysms a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Aortic_Aneurysms ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Arrhythmia a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Arrhythmia ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Back_Pain a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Back_Pain ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Blurred_Vision a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Blurred_Vision ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Body_Mass_Index_BMI a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Body_Mass_Index_BMI ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Body_Temperature a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:has_Breathing_Rate a owl:DatatypeProperty ;
+    rdfs:comment "Added" .
+
+CardiovascularDiseaseOntology:has_CT_Pulmonary_Angiogram_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:CT_Pulmonary_Angiogram_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_CT_Scanning_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:CT_Scanning_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Cardiac_Dysrythmias a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Dysrythmias ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Cardiac_Tamponande a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Tamponande ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Serious_Causes .
+
+CardiovascularDiseaseOntology:has_Cardiomyopathy a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiomyopathy ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Carditis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Carditis ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Cerebrovascular_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cerebrovascular_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Chest_Pain a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Chest_Pain ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Chest_Radiograph_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Chest_Radiograph_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Chest_X-ray_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Chest_X-ray_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Child_Specialist_Practitioner_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Child_Specialist_Practitioner_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Medical_Practitioner_Role .
+
+CardiovascularDiseaseOntology:has_Chronic_Diseases a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Chronic_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiac_Disease .
+
+CardiovascularDiseaseOntology:has_Chronic_Heart_Failure a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Chronic_Heart_Failure ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Heart_Failure .
+
+CardiovascularDiseaseOntology:has_Cogneital_Heart_Diseases_ICD-10_Code a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Disease ;
+    rdfs:range CardiovascularDiseaseOntology:Cogneital_Heart_Diseases_ICD-10_Code ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_ICD-Code .
+
+CardiovascularDiseaseOntology:has_Competence a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Competence .
+
+CardiovascularDiseaseOntology:has_Complete_Blood_Count_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Complete_Blood_Count_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_Congenital_Heart_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Congenital_Heart_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Contact_Number a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Coughing_Wheezing a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Coughing_Wheezing ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Creatine_Kinase_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Creatine_Kinase_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_Current_Oxygen_Saturation a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:has_Current_Resp a owl:DatatypeProperty ;
+    rdfs:comment "Added" .
+
+CardiovascularDiseaseOntology:has_D-dimer_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:D-dimer_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_Depression a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Depression ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Problems .
+
+CardiovascularDiseaseOntology:has_Depression_and_Traumatic_Stress a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Depression_and_Traumatic_Stress ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Diabetes_Mellitus a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Diabetes_Mellitus ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Diabetes_Type_I a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Diabetes_Type-I ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Diabetes_Type .
+
+CardiovascularDiseaseOntology:has_Diabetes_Type_II a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Diabetes_Types_II ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Diabetes_Type .
+
+CardiovascularDiseaseOntology:has_Diaphoresis_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Diaphoresis_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Doctor_Supporting_Nurse_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Doctor_Supporting_Nurse_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:hasAdditional_Nurse_Role .
+
+CardiovascularDiseaseOntology:has_Dosage a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Treatment ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Duration a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Treatment ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Dysphagia a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Dysphagia ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Castroesophageal_Reflux_Disease .
+
+CardiovascularDiseaseOntology:has_Echocardiography_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Echocardiography_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Electrocardiogram_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Electrocardiogram_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Electrolytes_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Electrolytes_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_Elevated_Blood_Pressure a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Elevated_Blood_Pressure ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:has_Email a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Emergency_Patient_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Emergency_Patient_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:hasPatient_Role .
+
+CardiovascularDiseaseOntology:has_End_Date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Medical_History ;
+    rdfs:range xsd:dateTime .
+
+CardiovascularDiseaseOntology:has_Endocarditis_Inflammation a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Endocarditis_Inflammation ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:has_Eosinophilic_Myocarditis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Eosinophilic_Myocarditis ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:has_Esophageal_Rupture a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Esophageal_Rupture ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Serious_Causes .
+
+CardiovascularDiseaseOntology:has_Excessive_Alcohol_Consumption a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Excessive_Alcohol_Consumption ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Family_History a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:has_Family_History_of_CVD a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Family_History_of_CVD ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Fatigue a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Fatigue ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Feeling_Dizzy a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Feeling_Dizzy ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Female a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Female ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Gender_or_Sex .
+
+CardiovascularDiseaseOntology:has_Genetic_Predisposition a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Genetic_Predisposition ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_HDL_Cholesterol-Desireable a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:HDL_Cholesterol-Desireable ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_HDL_Cholesterol .
+
+CardiovascularDiseaseOntology:has_HDL_Cholesterol_At_Risk a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:HDL_Cholesterol_At_Risk ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_HDL_Cholesterol .
+
+CardiovascularDiseaseOntology:has_Headache a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Headache ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Heart_Attack a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Heart_Attack ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Heart_Attack_ICD-10_Code a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Disease ;
+    rdfs:range CardiovascularDiseaseOntology:Heart_Attack_ICD-10_Code ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_ICD-Code .
+
+CardiovascularDiseaseOntology:has_Heart_Surgery_Treatment a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Heart_Surgery_Treatment ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Treatment .
+
+CardiovascularDiseaseOntology:has_Heartburn a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Heartburn ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Castroesophageal_Reflux_Disease .
+
+CardiovascularDiseaseOntology:has_Hemorrhagic a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hemorrhagic ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Stroke .
+
+CardiovascularDiseaseOntology:has_High_Blood_Pressure-HyperTension_Stage-1 a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:High_Blood_Pressure-HyperTension_Stage-1 ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:has_High_Blood_Pressure-HyperTension_Stage-2 a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:High_Blood_Pressure-HyperTension_Stage-2 ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:has_Hole_In_Heart a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hole_In_Heart ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Hypertension a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hypertension ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Hypertensive_Crisis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hypertensive_Crisis ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:has_Hypotension a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hypotension ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Hypotension_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hypotension_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Implant_Devices_Treatment a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Implant_Devices_Treatment ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Treatment .
+
+CardiovascularDiseaseOntology:has_Inflammatory_Cardiomegaly a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Inflammatory_Cardiomegaly ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:has_Ischemic_Heart_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Ischemic_Heart_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Stroke .
+
+CardiovascularDiseaseOntology:has_Junior_Occupational_Therapist_Role a owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Junior_Occupational_Therapist_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Occupational_Therapist_Role .
+
+CardiovascularDiseaseOntology:has_Junior_Practitioner_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Junior_Practitioner_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_General_Practitoner_Role .
+
+CardiovascularDiseaseOntology:has_Lack_of_Appetite a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Lack_of_Appetite ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Life_Style_Changes_Treatment a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Life_Style_Changes_Treatment ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Treatment .
+
+CardiovascularDiseaseOntology:has_Liver_Enzymes_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Liver_Enzymes_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_MRI_Scanning_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:MRI_Scanning_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Male a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Male ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Gender_or_Sex .
+
+CardiovascularDiseaseOntology:has_Medical_Condition a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Medical_History ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Medical_Consultant_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Medical_Consultant_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Surgeon_Practitioner_Role .
+
+CardiovascularDiseaseOntology:has_Medical_History a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Medical_History ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Diagnostic_Methods .
+
+CardiovascularDiseaseOntology:has_Medical_History_Id a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Medical_History ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:has_Medication a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Treatment ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Muscle_or_Skeltal_Pain a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Muscle_or_Skeltal_Pain ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Problems .
+
+CardiovascularDiseaseOntology:has_Myocarditis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Myocarditis ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:has_Nausea a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Nausea ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Non-alcohoolic_Fatty_Liver_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Non-alcohoolic_Fatty_Liver_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Normal_Blood_Pressure a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Normal_Blood_Pressure ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:has_Nose_Bleed a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Nose_Bleed ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Obesity a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Obesity ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Odynophagia a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Odynophagia ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Castroesophageal_Reflux_Disease .
+
+CardiovascularDiseaseOntology:has_Panic_Attack a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Panic_Attack ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Patient_Body_Weight a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Patient_Body_Weight ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Patient_Height a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Patient_Height ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Peripheral_Artery_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Peripheral_Artery_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Physical_Inactivity a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Physical_Inactivity ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Pneumonia a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Pneumonia ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Problems .
+
+CardiovascularDiseaseOntology:has_Poor_Sleep a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Poor_Sleep ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Psychosocial_Factors a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Psychosocial_Factors ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Pulmonary_Embolism a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Pulmonary_Embolism ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Serious_Causes .
+
+CardiovascularDiseaseOntology:has_Pulse_Rate a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:has_Race_and_Ethnicity a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Race_and_Ethnicity ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Renal_Artery_Stenosis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Renal_Artery_Stenosis ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Respiratory_Distress a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Respiratory_Distress ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Rheumatic_Heart_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Rheumatic_Heart_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Role_Firstname a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Role_Id a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:has_Role_Lastname a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Routinewise_Patient_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Routinewise_Patient_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:hasPatient_Role .
+
+CardiovascularDiseaseOntology:has_Senior_Occupational_Therapist_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Senior_Occupational_Therapist_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Occupational_Therapist_Role .
+
+CardiovascularDiseaseOntology:has_Senior_Practitioner_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Senior_Practitioner_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_General_Practitoner_Role .
+
+CardiovascularDiseaseOntology:has_Serum_Lipase_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Serum_Lipase_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_Shingles a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Shingles ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Problems .
+
+CardiovascularDiseaseOntology:has_Shortness_of_Breath a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Shortness_of_Breath ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Smoking_Status a owl:ObjectProperty ;
+    rdfs:comment "Added" ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Current_Smoking_Status .
+
+CardiovascularDiseaseOntology:has_Specialization a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Start_Date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Medical_History ;
+    rdfs:range xsd:dateTime .
+
+CardiovascularDiseaseOntology:has_Status a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Medical_History ;
+    rdfs:range xsd:string .
+
+CardiovascularDiseaseOntology:has_Stenting_Treatment a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Stenting_Treatment ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Treatment .
+
+CardiovascularDiseaseOntology:has_Stress_Traumas a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Stress_Traumas ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Problems .
+
+CardiovascularDiseaseOntology:has_Surgery_Supporting_Nurse_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Surgery_Supporting_Nurse_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:hasAdditional_Nurse_Role .
+
+CardiovascularDiseaseOntology:has_Swollen_Limbs a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Swollen_Limbs ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Tension_Pneumothorax a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Tension_Pneumothorax ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Serious_Causes .
+
+CardiovascularDiseaseOntology:has_Third_Heart_Sound_Exam a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Third_Heart_Sound_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Physical_Exams .
+
+CardiovascularDiseaseOntology:has_Thoracic_Aortic_Dissection a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Thoracic_Aortic_Dissection ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Serious_Causes .
+
+CardiovascularDiseaseOntology:has_Thromboembolic_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Thromboembolic_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Tobocco_Usage a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Tobocco_Usage ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Treatment_Date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Treatment ;
+    rdfs:range xsd:dateTime .
+
+CardiovascularDiseaseOntology:has_Treatment_Id a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Treatment ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:has_Triage_Nurse_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Triage_Nurse_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Role .
+
+CardiovascularDiseaseOntology:has_Troponin_I_or_T_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Troponin_I_or_T_Test ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Blood_Tests .
+
+CardiovascularDiseaseOntology:has_Unhealthy_Diet a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Unhealthy_Diet ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Valvular_Heart_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Valvular_Heart_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Venous_Thrombosis a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Venous_Thrombosis ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Weight_Gain a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Weight_Gain ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_eGFR-Stage-1 a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:eGFR-Stage-1 ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Estimated_Glomerular_Filteration_Rate-eGFR .
+
+CardiovascularDiseaseOntology:has_eGFR-Stage-2 a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:eGFR-Stage-2 ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Estimated_Glomerular_Filteration_Rate-eGFR .
+
+CardiovascularDiseaseOntology:has_eGFR-Stage-3 a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:eGFR-Stage-3 ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Estimated_Glomerular_Filteration_Rate-eGFR .
+
+CardiovascularDiseaseOntology:id a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer .
+
+CardiovascularDiseaseOntology:involve_In_Hospital_Care_Management a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Hospital_Care_Management ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:involve_In .
+
+CardiovascularDiseaseOntology:involve_In_Out_Hospital_Care_Management a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Out_Patient_Care_Management ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:involve_In .
+
+CardiovascularDiseaseOntology:involve_In_Pre_Hospital_Care_Management a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Pre_Hospital_Care_Management ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:involve_In .
+
+CardiovascularDiseaseOntology:isCause_Of_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Diseases_Causes ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Disease .
+
+CardiovascularDiseaseOntology:normalizedBy_OutPatient_Care a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Diseases_Causes ;
+    rdfs:range CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:normalizeBy_Remedies .
+
+CardiovascularDiseaseOntology:normalizedBy_PreHospital_Care a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Diseases_Causes ;
+    rdfs:range CardiovascularDiseaseOntology:Remedies_for_PreHospital_Care ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:normalizeBy_Remedies .
+
+CardiovascularDiseaseOntology:patientFirst_Name a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:patientLast_Name a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:patient_Address a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:patient_Email a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:patient_Gender a owl:DatatypeProperty .
+
+CardiovascularDiseaseOntology:prescribe_Medication a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Medication .
+
+CardiovascularDiseaseOntology:recommend_Blood_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:recommend_Physical_Test a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:reportable_Date a owl:DatatypeProperty ;
+    rdfs:comment "Added",
+        """DateTime format" 
+CCYY-MM-DDThh:mm:ss""" .
+
+CardiovascularDiseaseOntology:take_Anti-diabetic_Medication a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Anti-diabetic_Medication ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:take_Medication .
+
+CardiovascularDiseaseOntology:take_Antibiotics a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Antibiotics ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:take_Medication .
+
+CardiovascularDiseaseOntology:take_Antioxidant_Supplementation a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Antioxidant_Supplementation ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:take_Dietry_Supplements .
+
+CardiovascularDiseaseOntology:take_Blood_Pressure_Reduce_Medications a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Blood_Pressure_Reduce_Medications ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:take_Medication .
+
+CardiovascularDiseaseOntology:take_Magnesium_Supplementation a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Magnesium_Supplementation ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:take_Dietry_Supplements .
+
+CardiovascularDiseaseOntology:take_Niacin_Supplementation a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Niacin_Supplementation ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:take_Dietry_Supplements .
+
+CardiovascularDiseaseOntology:169_cm a CardiovascularDiseaseOntology:Patient_Height,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:45.5 a owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:45_Years a CardiovascularDiseaseOntology:Age,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:70_Kg a CardiovascularDiseaseOntology:Patient_Body_Weight,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:79 a owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Ability_to_Analyze_Situation a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Competence .
+
+CardiovascularDiseaseOntology:Ability_to_Handle_Situation a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Competence .
+
+CardiovascularDiseaseOntology:Acute_Coronary_Syndrome_Exam1 a CardiovascularDiseaseOntology:Acute_Coronary_Syndrome_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Acute_Diseases_Specialist a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Specialist_Area_Comptence .
+
+CardiovascularDiseaseOntology:Acute_Heart_Failure1 a CardiovascularDiseaseOntology:Acute_Heart_Failure,
+        CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Heart_Failure,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Administration_Department a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Departments .
+
+CardiovascularDiseaseOntology:Antibiotics1 a CardiovascularDiseaseOntology:Antibiotics,
+        CardiovascularDiseaseOntology:Medication,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Antihypertensive_Agents a CardiovascularDiseaseOntology:Remedies_for_PreHospital_Care,
+        owl:NamedIndividual ;
+    rdfs:comment "Antihypertensive agents Medicine- To reduce BP and other risk factors of heart disease" .
+
+CardiovascularDiseaseOntology:Anxiety_Disorders1 a CardiovascularDiseaseOntology:Anxiety_Disorders,
+        CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Physical_Problems,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Aortic_Aneurysms1 a CardiovascularDiseaseOntology:Aortic_Aneurysms,
+        CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Arrhythmia1 a CardiovascularDiseaseOntology:Arrhythmia,
+        CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Back_Pain1 a CardiovascularDiseaseOntology:Back_Pain,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Blood_Diseases_Specialist a CardiovascularDiseaseOntology:Blood_Diseases_Specialist,
+        CardiovascularDiseaseOntology:Specialist_Area_Comptence,
+        owl:Class,
+        owl:NamedIndividual ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Specialist_Area_Comptence .
+
+CardiovascularDiseaseOntology:Blurred_Vision1 a CardiovascularDiseaseOntology:Blurred_Vision,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Body_Mass_Index_BMI-1 a CardiovascularDiseaseOntology:Body_Mass_Index_BMI,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:CT_Scanning_Exam1 a CardiovascularDiseaseOntology:CT_Scanning_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiac_Dysrythmias1 a CardiovascularDiseaseOntology:Cardiac_Dysrythmias,
+        CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiac_Post_Emergency_Department_Goal a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Goals .
+
+CardiovascularDiseaseOntology:Cardiac_Surgery a CardiovascularDiseaseOntology:Medical_Specialization,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiology_Department a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Department .
+
+CardiovascularDiseaseOntology:Cardiomyopathy1 a CardiovascularDiseaseOntology:Cardiomyopathy,
+        CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cerebrovascular_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Cerebrovascular_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Chest_X-ray_Exam1 a CardiovascularDiseaseOntology:Chest_X-ray_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Chronic_Diseases_Specialist a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Specialist_Area_Comptence .
+
+CardiovascularDiseaseOntology:Chronic_Heart_Failure1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Chronic_Heart_Failure,
+        CardiovascularDiseaseOntology:Heart_Failure,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Congenital_Heart_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Congenital_Heart_Disease,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:has_ICD-Code CardiovascularDiseaseOntology:Congenital_Heart_Disease_ICD-10_CM_Code-Q24.9 ;
+    rdfs:comment "Q24.9: Congenital malformation of heart, unspecified" .
+
+CardiovascularDiseaseOntology:Congenital_Heart_Disease_ICD-10_CM_Code-Q24.9 a CardiovascularDiseaseOntology:Cogneital_Heart_Diseases_ICD-10_Code,
+        CardiovascularDiseaseOntology:ICD-10,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Coughing-Wheezing a CardiovascularDiseaseOntology:Coughing_Wheezing,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Creatine_Kinase_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:Creatine_Kinase_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:D-dimer_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:D-dimer_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Depression1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Depression,
+        CardiovascularDiseaseOntology:Physical_Problems,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Depression_and_Traumatic_Stress_Yes_OR_No a CardiovascularDiseaseOntology:Depression_and_Traumatic_Stress,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Diabetes_Type_II a CardiovascularDiseaseOntology:Diabetes_Type,
+        CardiovascularDiseaseOntology:Diabetes_Types_II,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Diaphoresis_Exam1 a CardiovascularDiseaseOntology:Diaphoresis_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Doctor_Supporting_Nurse_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Additional_Nurse_Role .
+
+CardiovascularDiseaseOntology:Dysphagia1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Dysphagia,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:isCause_Of_Disease CardiovascularDiseaseOntology:Hemorrhagic1 .
+
+CardiovascularDiseaseOntology:Echocardiography_Exam1 a CardiovascularDiseaseOntology:Echocardiography_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Education_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence_Proficiency_Level .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Elevated_Blood_Pressure_[Upper_number_Ranged_between_120-129]_AND_[Lower_number_less_than_80]> a CardiovascularDiseaseOntology:Elevated_Blood_Pressure,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Emergency_Cardiovascular_Ward a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Ward .
+
+CardiovascularDiseaseOntology:Emergency_Department a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Departments .
+
+CardiovascularDiseaseOntology:Emergency_Department_Process a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Process .
+
+CardiovascularDiseaseOntology:Emergency_Patient_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Patient_Role .
+
+CardiovascularDiseaseOntology:Endocarditis_Inflammation1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Endocarditis_Inflammation,
+        CardiovascularDiseaseOntology:Inflammatory_Heart_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Eosinophilic_Myocarditis1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Eosinophilic_Myocarditis,
+        CardiovascularDiseaseOntology:Inflammatory_Heart_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Esophageal_Rupture1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Esophageal_Rupture,
+        CardiovascularDiseaseOntology:Serious_Causes,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Excessive_Alcohol_Consumption-Yes_or_No a CardiovascularDiseaseOntology:Excessive_Alcohol_Consumption,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Experience_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence_Proficiency_Level .
+
+CardiovascularDiseaseOntology:Family_History_of_CVD-Yes_or_NO a CardiovascularDiseaseOntology:Family_History_of_CVD,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Fatigue1 a CardiovascularDiseaseOntology:Fatigue,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Feeling_Dizzy1 a CardiovascularDiseaseOntology:Feeling_Dizzy,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Female_Profile a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Person_Profile .
+
+CardiovascularDiseaseOntology:General_Cardiovascular_Ward a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Ward .
+
+CardiovascularDiseaseOntology:General_Competence_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence_Proficiency_Level .
+
+CardiovascularDiseaseOntology:General_Practitioner_Group a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Group .
+
+CardiovascularDiseaseOntology:Genetic_Predisposition_Yes_or_No a CardiovascularDiseaseOntology:Genetic_Predisposition,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#HDL_Cholesterol_Ranged_[Value_number_60_mg/dL_[1.6mmol/L_or_above]]_for_Men> a CardiovascularDiseaseOntology:HDL_Cholesterol-Desireable,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#HDL_Cholesterol_Ranged_[Value_number_Less_than_40mg/dl_[1.0_mmol/L]]> a CardiovascularDiseaseOntology:HDL_Cholesterol_At_Risk,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Head_Nurse a owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Headache1 a CardiovascularDiseaseOntology:Headache,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Health_Administration a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Educational_Field .
+
+CardiovascularDiseaseOntology:Heart_Attack1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Heart_Attack,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:has_Heart_Attack_ICD-10_Code CardiovascularDiseaseOntology:Heart_Attack_ICD-10_Code-121.9 .
+
+CardiovascularDiseaseOntology:Heart_Attack_ICD-10_Code-121.9 a CardiovascularDiseaseOntology:Heart_Attack_ICD-10_Code,
+        CardiovascularDiseaseOntology:ICD-10,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Heartburn1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Heartburn,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#High_Blood_Pressure_Stage-1_[Upper_number_Ranged_[130-139]_AND_[Lower_number_Ranged_[80-89]]> a CardiovascularDiseaseOntology:High_Blood_Pressure-HyperTension_Stage-1,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#High_Blood_Pressure_Stage-2_[Upper_number_Ranged_[140_or_Higher]_OR_[Lower_number_Ranged_[90_or_Higher]]> a CardiovascularDiseaseOntology:High_Blood_Pressure-HyperTension_Stage-2,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Hole_In_Heart1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Hole_In_Heart,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Hypertension1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Hypertension,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Hypertensive_Crisis_[Upper_number_Ranged_Higher_than_180]_AND/OR_[Lower_number_Higher_than_120]> a CardiovascularDiseaseOntology:Hypertensive_Crisis,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Hypotension1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Hypotension,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Hypotension_Exam1 a CardiovascularDiseaseOntology:Hypotension_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Inflammatory_Cardiomegaly1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Inflammatory_Cardiomegaly,
+        CardiovascularDiseaseOntology:Inflammatory_Heart_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:InterCultural_Sensitivity a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cultural_Competence .
+
+CardiovascularDiseaseOntology:Intercultural_Sensitivity_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence_Proficiency_Level .
+
+CardiovascularDiseaseOntology:Ischemic_Heart_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Coronary_Artery_Diseases,
+        CardiovascularDiseaseOntology:Ischemic_Heart_Disease,
+        CardiovascularDiseaseOntology:Stroke,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Junior_Occupational_Therapist_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Therapist_Role .
+
+CardiovascularDiseaseOntology:Lab_Coordinator_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role .
+
+CardiovascularDiseaseOntology:Laboratory_Test_Education a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Educational_Field .
+
+CardiovascularDiseaseOntology:Lack_of_Appetite1 a CardiovascularDiseaseOntology:Lack_of_Appetite,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Language_Competence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cultural_Competence .
+
+CardiovascularDiseaseOntology:Language_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence_Proficiency_Level .
+
+CardiovascularDiseaseOntology:MRI_Scanning_Exam1 a CardiovascularDiseaseOntology:MRI_Scanning_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Male=1> a CardiovascularDiseaseOntology:Gender_or_Sex,
+        CardiovascularDiseaseOntology:Male,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Male_Profile a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Person_Profile .
+
+CardiovascularDiseaseOntology:Medical_Administrator_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role .
+
+CardiovascularDiseaseOntology:Medical_Consultant a owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:check_Medical_History CardiovascularDiseaseOntology:Patient_Medical_History1 ;
+    CardiovascularDiseaseOntology:examine_Cardiac_Diseases CardiovascularDiseaseOntology:Carditis1 ;
+    CardiovascularDiseaseOntology:examine_Sign_Symptoms CardiovascularDiseaseOntology:Anemia1 ;
+    CardiovascularDiseaseOntology:prescribe_Medication CardiovascularDiseaseOntology:Statins ;
+    CardiovascularDiseaseOntology:recommend_Blood_Test CardiovascularDiseaseOntology:Liver_Enzymes_Test1 ;
+    CardiovascularDiseaseOntology:recommend_Physical_Test CardiovascularDiseaseOntology:Electrocardiogram_Exam1 .
+
+CardiovascularDiseaseOntology:Medical_Specialist_Group a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Group .
+
+CardiovascularDiseaseOntology:Medicine a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Educational_Field .
+
+CardiovascularDiseaseOntology:Muscle_or_Skeltal_Pain1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Muscle_or_Skeltal_Pain,
+        CardiovascularDiseaseOntology:Physical_Problems,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Myocarditis1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Inflammatory_Heart_Disease,
+        CardiovascularDiseaseOntology:Myocarditis,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nausea1 a CardiovascularDiseaseOntology:Nausea,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:No a CardiovascularDiseaseOntology:Current_Smoking_Status,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Non-alcohoolic_Fatty_Liver_Disease_Yes_or_No a CardiovascularDiseaseOntology:Non-alcohoolic_Fatty_Liver_Disease,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Normal_Blood_Pressure_[Upper_number_less_than_120]_AND_[Lower_number_less_than_80]> a CardiovascularDiseaseOntology:Normal_Blood_Pressure,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nose_Bleed1 a CardiovascularDiseaseOntology:Nose_Bleed,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Nursing_Professional_Group a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Group .
+
+CardiovascularDiseaseOntology:Nursing_and_Care a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Educational_Field .
+
+CardiovascularDiseaseOntology:Obesity_Yes_or_No a CardiovascularDiseaseOntology:Obesity,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Odynophagia1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Odynophagia,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Panic_Attack1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Panic_Attack,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Particle_Polution_[value_Ranged_less_than_PM_2.5µm_or_PM-2.5]> a CardiovascularDiseaseOntology:Air_Polution,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Patient1 a CardiovascularDiseaseOntology:Patient_Role,
+        CardiovascularDiseaseOntology:Role,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:TestDate "42716" ;
+    CardiovascularDiseaseOntology:Units "mmhg" ;
+    CardiovascularDiseaseOntology:attendingPatient_Role CardiovascularDiseaseOntology:Triage_Nurse1 ;
+    CardiovascularDiseaseOntology:hasDiastolic_DBP "79" ;
+    CardiovascularDiseaseOntology:hasMobile_Number "+4672-304-8300"^^xsd:normalizedString ;
+    CardiovascularDiseaseOntology:hasPatient_ID "19780520-XXXX" ;
+    CardiovascularDiseaseOntology:hasSystolic_SBP "118" ;
+    CardiovascularDiseaseOntology:has_Acute_Coronary_Syndrome_Exam CardiovascularDiseaseOntology:Acute_Coronary_Syndrome_Exam1 ;
+    CardiovascularDiseaseOntology:has_Acute_Heart_Failure CardiovascularDiseaseOntology:Acute_Heart_Failure1 ;
+    CardiovascularDiseaseOntology:has_Age CardiovascularDiseaseOntology:45_Years ;
+    CardiovascularDiseaseOntology:has_Air_Polution <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Particle_Polution_[value_Ranged_less_than_PM_2.5µm_or_PM-2.5]> ;
+    CardiovascularDiseaseOntology:has_Anemia CardiovascularDiseaseOntology:Anemia1 ;
+    CardiovascularDiseaseOntology:has_Angina CardiovascularDiseaseOntology:Angina1 ;
+    CardiovascularDiseaseOntology:has_Aortic_Aneurysms CardiovascularDiseaseOntology:Aortic_Aneurysms1 ;
+    CardiovascularDiseaseOntology:has_Arrhythmia CardiovascularDiseaseOntology:Arrhythmia1 ;
+    CardiovascularDiseaseOntology:has_Back_Pain CardiovascularDiseaseOntology:Back_Pain1 ;
+    CardiovascularDiseaseOntology:has_Blurred_Vision CardiovascularDiseaseOntology:Blurred_Vision1 ;
+    CardiovascularDiseaseOntology:has_Body_Mass_Index_BMI CardiovascularDiseaseOntology:Body_Mass_Index_BMI-1 ;
+    CardiovascularDiseaseOntology:has_Body_Temperature "97.8°F to 99.1°F (36.5°C to 37.3°C); average 98.6°F (37°C)" ;
+    CardiovascularDiseaseOntology:has_Breathing_Rate "Breathing: 12 to 18 breaths per minute" ;
+    CardiovascularDiseaseOntology:has_CT_Pulmonary_Angiogram_Exam CardiovascularDiseaseOntology:CT_Pulmonary_Angiogram_Exam1 ;
+    CardiovascularDiseaseOntology:has_CT_Scanning_Exam CardiovascularDiseaseOntology:CT_Scanning_Exam1 ;
+    CardiovascularDiseaseOntology:has_Cardiac_Dysrythmias CardiovascularDiseaseOntology:Cardiac_Dysrythmias1 ;
+    CardiovascularDiseaseOntology:has_Cardiomyopathy CardiovascularDiseaseOntology:Cardiomyopathy1 ;
+    CardiovascularDiseaseOntology:has_Carditis CardiovascularDiseaseOntology:Carditis1 ;
+    CardiovascularDiseaseOntology:has_Cerebrovascular_Disease CardiovascularDiseaseOntology:Cerebrovascular_Disease1 ;
+    CardiovascularDiseaseOntology:has_Chest_Pain CardiovascularDiseaseOntology:Chest_Pain1 ;
+    CardiovascularDiseaseOntology:has_Chest_Radiograph_Exam CardiovascularDiseaseOntology:Chest_Radiograph_Exam1 ;
+    CardiovascularDiseaseOntology:has_Chest_X-ray_Exam CardiovascularDiseaseOntology:Chest_X-ray_Exam1 ;
+    CardiovascularDiseaseOntology:has_Chronic_Heart_Failure CardiovascularDiseaseOntology:Chronic_Heart_Failure1 ;
+    CardiovascularDiseaseOntology:has_Complete_Blood_Count_Test CardiovascularDiseaseOntology:Complete_Blood_Count_Test1 ;
+    CardiovascularDiseaseOntology:has_Congenital_Heart_Disease CardiovascularDiseaseOntology:Congenital_Heart_Disease1 ;
+    CardiovascularDiseaseOntology:has_Coughing_Wheezing CardiovascularDiseaseOntology:Coughing-Wheezing ;
+    CardiovascularDiseaseOntology:has_Creatine_Kinase_Test CardiovascularDiseaseOntology:Creatine_Kinase_Test1 ;
+    CardiovascularDiseaseOntology:has_D-dimer_Test CardiovascularDiseaseOntology:D-dimer_Test1 ;
+    CardiovascularDiseaseOntology:has_Depression_and_Traumatic_Stress CardiovascularDiseaseOntology:Depression_and_Traumatic_Stress_Yes_OR_No ;
+    CardiovascularDiseaseOntology:has_Diabetes_Mellitus CardiovascularDiseaseOntology:Yes-Diabetic-Type-1 ;
+    CardiovascularDiseaseOntology:has_Diabetes_Type_I CardiovascularDiseaseOntology:Diabetes_Type-I ;
+    CardiovascularDiseaseOntology:has_Diabetes_Type_II CardiovascularDiseaseOntology:Diabetes_Type_II ;
+    CardiovascularDiseaseOntology:has_Diaphoresis_Exam CardiovascularDiseaseOntology:Diaphoresis_Exam1 ;
+    CardiovascularDiseaseOntology:has_Echocardiography_Exam CardiovascularDiseaseOntology:Echocardiography_Exam1 ;
+    CardiovascularDiseaseOntology:has_Electrocardiogram_Exam CardiovascularDiseaseOntology:Electrocardiogram_Exam1 ;
+    CardiovascularDiseaseOntology:has_Electrolytes_Test CardiovascularDiseaseOntology:Electrolytes_Test1 ;
+    CardiovascularDiseaseOntology:has_Elevated_Blood_Pressure <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Elevated_Blood_Pressure_[Upper_number_Ranged_between_120-129]_AND_[Lower_number_less_than_80]> ;
+    CardiovascularDiseaseOntology:has_Endocarditis_Inflammation CardiovascularDiseaseOntology:Endocarditis_Inflammation1 ;
+    CardiovascularDiseaseOntology:has_Eosinophilic_Myocarditis CardiovascularDiseaseOntology:Eosinophilic_Myocarditis1 ;
+    CardiovascularDiseaseOntology:has_Excessive_Alcohol_Consumption CardiovascularDiseaseOntology:Excessive_Alcohol_Consumption-Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Family_History "Diabetes High BP" ;
+    CardiovascularDiseaseOntology:has_Family_History_of_CVD CardiovascularDiseaseOntology:Family_History_of_CVD-Yes_or_NO ;
+    CardiovascularDiseaseOntology:has_Fatigue CardiovascularDiseaseOntology:Fatigue1 ;
+    CardiovascularDiseaseOntology:has_Feeling_Dizzy CardiovascularDiseaseOntology:Feeling_Dizzy1 ;
+    CardiovascularDiseaseOntology:has_Gender_or_Sex <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Male=1> ;
+    CardiovascularDiseaseOntology:has_Genetic_Predisposition CardiovascularDiseaseOntology:Genetic_Predisposition_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_HDL_Cholesterol-Desireable <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#HDL_Cholesterol_Ranged_[Value_number_60_mg/dL_[1.6mmol/L_or_above]]_for_Men> ;
+    CardiovascularDiseaseOntology:has_HDL_Cholesterol_At_Risk <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#HDL_Cholesterol_Ranged_[Value_number_Less_than_40mg/dl_[1.0_mmol/L]]> ;
+    CardiovascularDiseaseOntology:has_Headache CardiovascularDiseaseOntology:Headache1 ;
+    CardiovascularDiseaseOntology:has_Heart_Attack CardiovascularDiseaseOntology:Heart_Attack1 ;
+    CardiovascularDiseaseOntology:has_Hemorrhagic CardiovascularDiseaseOntology:Hemorrhagic1 ;
+    CardiovascularDiseaseOntology:has_High_Blood_Pressure-HyperTension_Stage-1 <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#High_Blood_Pressure_Stage-1_[Upper_number_Ranged_[130-139]_AND_[Lower_number_Ranged_[80-89]]> ;
+    CardiovascularDiseaseOntology:has_High_Blood_Pressure-HyperTension_Stage-2 <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#High_Blood_Pressure_Stage-2_[Upper_number_Ranged_[140_or_Higher]_OR_[Lower_number_Ranged_[90_or_Higher]]> ;
+    CardiovascularDiseaseOntology:has_Hole_In_Heart CardiovascularDiseaseOntology:Hole_In_Heart1 ;
+    CardiovascularDiseaseOntology:has_Hypertension CardiovascularDiseaseOntology:Hypertension1 ;
+    CardiovascularDiseaseOntology:has_Hypertensive_Crisis <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Hypertensive_Crisis_[Upper_number_Ranged_Higher_than_180]_AND/OR_[Lower_number_Higher_than_120]> ;
+    CardiovascularDiseaseOntology:has_Hypotension CardiovascularDiseaseOntology:Hypotension1 ;
+    CardiovascularDiseaseOntology:has_Hypotension_Exam CardiovascularDiseaseOntology:Hypotension_Exam1 ;
+    CardiovascularDiseaseOntology:has_Inflammatory_Cardiomegaly CardiovascularDiseaseOntology:Inflammatory_Cardiomegaly1 ;
+    CardiovascularDiseaseOntology:has_Ischemic_Heart_Disease CardiovascularDiseaseOntology:Ischemic_Heart_Disease1 ;
+    CardiovascularDiseaseOntology:has_Lack_of_Appetite CardiovascularDiseaseOntology:Lack_of_Appetite1 ;
+    CardiovascularDiseaseOntology:has_Liver_Enzymes_Test CardiovascularDiseaseOntology:Liver_Enzymes_Test1 ;
+    CardiovascularDiseaseOntology:has_MRI_Scanning_Exam CardiovascularDiseaseOntology:MRI_Scanning_Exam1 ;
+    CardiovascularDiseaseOntology:has_Medical_History CardiovascularDiseaseOntology:Patient_Medical_History1 ;
+    CardiovascularDiseaseOntology:has_Myocarditis CardiovascularDiseaseOntology:Myocarditis1 ;
+    CardiovascularDiseaseOntology:has_Nausea CardiovascularDiseaseOntology:Nausea1 ;
+    CardiovascularDiseaseOntology:has_Non-alcohoolic_Fatty_Liver_Disease CardiovascularDiseaseOntology:Non-alcohoolic_Fatty_Liver_Disease_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Normal_Blood_Pressure <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Normal_Blood_Pressure_[Upper_number_less_than_120]_AND_[Lower_number_less_than_80]> ;
+    CardiovascularDiseaseOntology:has_Nose_Bleed CardiovascularDiseaseOntology:Nose_Bleed1 ;
+    CardiovascularDiseaseOntology:has_Obesity CardiovascularDiseaseOntology:Obesity_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Panic_Attack CardiovascularDiseaseOntology:Panic_Attack1 ;
+    CardiovascularDiseaseOntology:has_Patient_Body_Weight CardiovascularDiseaseOntology:70_Kg ;
+    CardiovascularDiseaseOntology:has_Patient_Height CardiovascularDiseaseOntology:169_cm ;
+    CardiovascularDiseaseOntology:has_Peripheral_Artery_Disease CardiovascularDiseaseOntology:Peripheral_Artery_Disease1 ;
+    CardiovascularDiseaseOntology:has_Physical_Inactivity CardiovascularDiseaseOntology:Physical_Inactivity_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Poor_Sleep CardiovascularDiseaseOntology:Poor_Sleep_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Psychosocial_Factors CardiovascularDiseaseOntology:Psychosocial_Factors_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Pulse_Rate "60 to 100 beats per minute" ;
+    CardiovascularDiseaseOntology:has_Race_and_Ethnicity <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Race_and_Ethnicity_Asian,_European,_African,_United_States_and_Canadian> ;
+    CardiovascularDiseaseOntology:has_Renal_Artery_Stenosis CardiovascularDiseaseOntology:Renal_Artery_Stenosis1 ;
+    CardiovascularDiseaseOntology:has_Respiratory_Distress CardiovascularDiseaseOntology:Respiratory_Distress1 ;
+    CardiovascularDiseaseOntology:has_Rheumatic_Heart_Disease CardiovascularDiseaseOntology:Rheumatic_Heart_Disease1 ;
+    CardiovascularDiseaseOntology:has_Serum_Lipase_Test CardiovascularDiseaseOntology:Serum_Lipase_Test1 ;
+    CardiovascularDiseaseOntology:has_Shortness_of_Breath CardiovascularDiseaseOntology:Shortness_of_Breath1 ;
+    CardiovascularDiseaseOntology:has_Swollen_Limbs CardiovascularDiseaseOntology:Swollen_Limbs1 ;
+    CardiovascularDiseaseOntology:has_Third_Heart_Sound_Exam CardiovascularDiseaseOntology:Third_Heart_Sound_Exam1 ;
+    CardiovascularDiseaseOntology:has_Thromboembolic_Disease CardiovascularDiseaseOntology:Thromboembolic_Disease1 ;
+    CardiovascularDiseaseOntology:has_Tobocco_Usage CardiovascularDiseaseOntology:Tobocco_Usage_Yes_or_No ;
+    CardiovascularDiseaseOntology:has_Troponin_I_or_T_Test CardiovascularDiseaseOntology:Troponin_I_or_T_Test1 ;
+    CardiovascularDiseaseOntology:has_Unhealthy_Diet CardiovascularDiseaseOntology:Unhealthy_Diet_Yes ;
+    CardiovascularDiseaseOntology:has_Valvular_Heart_Disease CardiovascularDiseaseOntology:Valvular_Heart_Disease1 ;
+    CardiovascularDiseaseOntology:has_Venous_Thrombosis CardiovascularDiseaseOntology:Venous_Thrombosis1 ;
+    CardiovascularDiseaseOntology:has_Weight_Gain CardiovascularDiseaseOntology:Weight_Gain1 ;
+    CardiovascularDiseaseOntology:has_eGFR-Stage-1 <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#eGFR-[Value_=_90_or_Higher]-Normal_Range> ;
+    CardiovascularDiseaseOntology:has_eGFR-Stage-2 <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#eGFR-[Value_Ranged_[45-59]]-Moderate_Kidney_fucntion> ;
+    CardiovascularDiseaseOntology:has_eGFR-Stage-3 <http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#eGFR-[Value_Ranged_[45-59]]-Moderate_Kidney_fucntion> ;
+    CardiovascularDiseaseOntology:isAssigned_Role CardiovascularDiseaseOntology:Person1 ;
+    CardiovascularDiseaseOntology:patientFirst_Name "Abid" ;
+    CardiovascularDiseaseOntology:patientLast_Name "Ali Fareedi" ;
+    CardiovascularDiseaseOntology:patient_Address "Karl-Gustav Doolkes Vag1, 12864, Stora Skondal, Stockholm, Sweden" ;
+    CardiovascularDiseaseOntology:patient_Email "abid.fareedi@gmail.com" ;
+    CardiovascularDiseaseOntology:patient_Gender "Male" ;
+    CardiovascularDiseaseOntology:take_Medication CardiovascularDiseaseOntology:Aspirin .
+
+CardiovascularDiseaseOntology:Patient3 a CardiovascularDiseaseOntology:Patient_Role,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:TestDate "15-10-2017",
+        "18-10-2017",
+        "22-11-2017" ;
+    CardiovascularDiseaseOntology:Units "mmHg" ;
+    CardiovascularDiseaseOntology:attendingPatient_Role CardiovascularDiseaseOntology:Medical_Consultant,
+        CardiovascularDiseaseOntology:Senior_Practitioner1,
+        CardiovascularDiseaseOntology:Triage_Nurse1 ;
+    CardiovascularDiseaseOntology:hasDiastolic_DBP "56",
+        "76",
+        "86" ;
+    CardiovascularDiseaseOntology:hasPatient_ID "19780520-ZZZZ" ;
+    CardiovascularDiseaseOntology:hasSystolic_SBP "126",
+        "144",
+        "150" ;
+    CardiovascularDiseaseOntology:has_Body_Temperature "37.2" ;
+    CardiovascularDiseaseOntology:has_Current_Oxygen_Saturation "98" ;
+    CardiovascularDiseaseOntology:has_Current_Resp "16" ;
+    CardiovascularDiseaseOntology:has_Patient_Body_Weight CardiovascularDiseaseOntology:79 ;
+    CardiovascularDiseaseOntology:has_Patient_Height CardiovascularDiseaseOntology:45.5 ;
+    CardiovascularDiseaseOntology:has_Smoking_Status CardiovascularDiseaseOntology:No ;
+    CardiovascularDiseaseOntology:patientFirst_Name "Abid" ;
+    CardiovascularDiseaseOntology:reportable_Date "2016-12-13T00:00:00" .
+
+CardiovascularDiseaseOntology:Peripheral_Artery_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Peripheral_Artery_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Person1 a CardiovascularDiseaseOntology:Male_Profile,
+        CardiovascularDiseaseOntology:Person_Profile,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:hasPatient_Role CardiovascularDiseaseOntology:Patient1 .
+
+CardiovascularDiseaseOntology:Physical_Inactivity_Yes_or_No a CardiovascularDiseaseOntology:Physical_Inactivity,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Pneumonia1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Physical_Problems,
+        CardiovascularDiseaseOntology:Pneumonia,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Poor_Sleep_Yes_or_No a CardiovascularDiseaseOntology:Poor_Sleep,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Post_Emergency_Department_Process a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Process .
+
+CardiovascularDiseaseOntology:Pre_Emergency_Department_Process a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Process .
+
+CardiovascularDiseaseOntology:Private_Hospital_or_Clinic a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Health_Organization .
+
+CardiovascularDiseaseOntology:Problem_Solving_Ability a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Competence .
+
+CardiovascularDiseaseOntology:Psychosocial_Factors_Yes_or_No a CardiovascularDiseaseOntology:Psychosocial_Factors,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Pulmonary_Embolism1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Pulmonary_Embolism,
+        CardiovascularDiseaseOntology:Serious_Causes,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#Race_and_Ethnicity_Asian,_European,_African,_United_States_and_Canadian> a CardiovascularDiseaseOntology:Race_and_Ethnicity,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Renal_Artery_Stenosis1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Renal_Artery_Stenosis,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Rheumatic_Heart_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Rheumatic_Heart_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Routinewise_Patient_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Patient_Role .
+
+CardiovascularDiseaseOntology:Senior_Occupational_Therapist_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Therapist_Role .
+
+CardiovascularDiseaseOntology:Senior_Practitioner1 a CardiovascularDiseaseOntology:General_Practitoner_Role,
+        CardiovascularDiseaseOntology:Medical_Practitioner_Role,
+        CardiovascularDiseaseOntology:Role,
+        CardiovascularDiseaseOntology:Senior_Practitioner_Role,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:check_Medical_History CardiovascularDiseaseOntology:Patient_Medical_History1 ;
+    CardiovascularDiseaseOntology:examine_Cardiac_Diseases CardiovascularDiseaseOntology:Cardiac_Surgery ;
+    CardiovascularDiseaseOntology:examine_Sign_Symptoms CardiovascularDiseaseOntology:Respiratory_Distress1 ;
+    CardiovascularDiseaseOntology:prescribe_Medication CardiovascularDiseaseOntology:Antibiotics1 ;
+    CardiovascularDiseaseOntology:recommend_Blood_Test CardiovascularDiseaseOntology:Electrolytes_Test1 ;
+    CardiovascularDiseaseOntology:recommend_Physical_Test CardiovascularDiseaseOntology:CT_Pulmonary_Angiogram_Exam1 .
+
+CardiovascularDiseaseOntology:Serum_Lipase_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:Serum_Lipase_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Shingles1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Physical_Problems,
+        CardiovascularDiseaseOntology:Shingles,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Shortness_of_Breath1 a CardiovascularDiseaseOntology:Shortness_of_Breath,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Skill_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence_Proficiency_Level .
+
+CardiovascularDiseaseOntology:Statins a CardiovascularDiseaseOntology:Blood_Pressure_Reduce_Medications,
+        CardiovascularDiseaseOntology:Medication,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Stress_Traumas1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Common_Causes,
+        CardiovascularDiseaseOntology:Physical_Problems,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        CardiovascularDiseaseOntology:Stress_Traumas,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Support_and_Guidance_Ability a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Competence .
+
+CardiovascularDiseaseOntology:Surgery a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Educational_Field .
+
+CardiovascularDiseaseOntology:Surgery_Supporting_Nurse_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Additional_Nurse_Role .
+
+CardiovascularDiseaseOntology:Surgical_Clipping a CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Swollen_Limbs1 a CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        CardiovascularDiseaseOntology:Swollen_Limbs,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Tension_Pneumothorax1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Serious_Causes,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        CardiovascularDiseaseOntology:Tension_Pneumothorax,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Third_Heart_Sound_Exam1 a CardiovascularDiseaseOntology:Physical_Exam,
+        CardiovascularDiseaseOntology:Third_Heart_Sound_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Thoracic_Aortic_Dissection1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Serious_Causes,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        CardiovascularDiseaseOntology:Thoracic_Aortic_Dissection,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Thromboembolic_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Thromboembolic_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Tobocco_Usage_Yes_or_No a CardiovascularDiseaseOntology:Tobocco_Usage,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Troponin_I_or_T_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:Troponin_I_or_T_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Unhealthy_Diet_Yes a CardiovascularDiseaseOntology:Unhealthy_Diet,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Valvular_Heart_Disease1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Valvular_Heart_Disease,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Venous_Thrombosis1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Venous_Thrombosis,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Weight_Gain1 a CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        CardiovascularDiseaseOntology:Weight_Gain,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Yes-Diabetic-Type-1 a CardiovascularDiseaseOntology:Diabetes_Mellitus,
+        owl:NamedIndividual .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#eGFR-[Value_=_90_or_Higher]-Normal_Range> a CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR,
+        CardiovascularDiseaseOntology:eGFR-Stage-1,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:has_Cardiac_Diseases_Causes a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Diseases_Causes .
+
+CardiovascularDiseaseOntology:has_Coronary_Artery_Diseases a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Coronary_Artery_Diseases ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Surgeon_Practitioner_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Surgeon_Practitioner_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Medical_Practitioner_Role .
+
+CardiovascularDiseaseOntology:isAssigned_Role a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Person_Profile .
+
+CardiovascularDiseaseOntology:Acute_Coronary_Syndrome_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Acute_Heart_Failure a owl:Class ;
+    rdfs:comment "Acute heart failuredevelops suddenly and symptoms are initially severe.Acute heart failurecan follow a heart attack that has caused damage to an area of ​​your heart. It can also be caused by a sudden lack of ability of the body to compensate for chronic heart failure." ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Heart_Failure .
+
+CardiovascularDiseaseOntology:Age a owl:Class,
+        owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:comment "Patient [age >21 and age <100]" ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Air_Polution a owl:Class ;
+    rdfs:comment "Fine particulate matter (particulate matter with diameters less than 2.5 µm or PM2.5) can increase the risk of cardiovascular events." ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Anemia a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Anemia1 a CardiovascularDiseaseOntology:Anemia,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Angina a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Angina1 a CardiovascularDiseaseOntology:Angina,
+        CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Antibiotics a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medication .
+
+CardiovascularDiseaseOntology:Antioxidant_Supplementation a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Dietry_Supplements .
+
+CardiovascularDiseaseOntology:Anxiety_Disorders a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Problems .
+
+CardiovascularDiseaseOntology:Aortic_Aneurysms a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Arrhythmia a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Aspirin a CardiovascularDiseaseOntology:Anti-diabetic_Medication,
+        CardiovascularDiseaseOntology:Cardiac_Care_Remdies,
+        CardiovascularDiseaseOntology:Medication,
+        CardiovascularDiseaseOntology:Remedies_for_PreHospital_Care,
+        owl:NamedIndividual ;
+    rdfs:comment "Aspirin is in a group of medications called salicylates. It works by stopping the production of certain natural substances that cause fever, pain, swelling, and blood clots." .
+
+CardiovascularDiseaseOntology:Back_Pain a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Blurred_Vision a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Body_Mass_Index_BMI a owl:Class ;
+    rdfs:comment """Facts: 
+
+If BMI is less than 18.5 kg/m2, it falls within the underweight range. 
+If BMI is 18.5 to 24.9 kg/m2, it falls within the Healthy Weight range. 
+If BMI is 25.0 to 29.9 kg/m2, it falls within the overweight range. 
+If your BMI is 30.0 kg/m2 or higher, it falls within the obese range.""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:CT_Pulmonary_Angiogram_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:CT_Pulmonary_Angiogram_Exam1 a CardiovascularDiseaseOntology:CT_Pulmonary_Angiogram_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:CT_Scanning_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Cardiac_Dysrythmias a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Cardiac_Pre_Emergency_Department_Goal a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Goals .
+
+CardiovascularDiseaseOntology:Cardiac_Tamponande a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Serious_Causes .
+
+CardiovascularDiseaseOntology:Cardiac_Tamponande1 a CardiovascularDiseaseOntology:Cardiac_Diseases_Causes,
+        CardiovascularDiseaseOntology:Cardiac_Tamponande,
+        CardiovascularDiseaseOntology:Chest_Pain_Causes,
+        CardiovascularDiseaseOntology:Serious_Causes,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cardiomyopathy a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Carditis a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Carditis1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Carditis,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Cerebrovascular_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Chest_Pain a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Chest_Pain1 a CardiovascularDiseaseOntology:Chest_Pain,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:has_Anxiety_Disorders CardiovascularDiseaseOntology:Anxiety_Disorders1 ;
+    CardiovascularDiseaseOntology:has_Cardiac_Tamponande CardiovascularDiseaseOntology:Cardiac_Tamponande1 ;
+    CardiovascularDiseaseOntology:has_Depression CardiovascularDiseaseOntology:Depression1 ;
+    CardiovascularDiseaseOntology:has_Dysphagia CardiovascularDiseaseOntology:Dysphagia1 ;
+    CardiovascularDiseaseOntology:has_Esophageal_Rupture CardiovascularDiseaseOntology:Esophageal_Rupture1 ;
+    CardiovascularDiseaseOntology:has_Heartburn CardiovascularDiseaseOntology:Heartburn1 ;
+    CardiovascularDiseaseOntology:has_Muscle_or_Skeltal_Pain CardiovascularDiseaseOntology:Muscle_or_Skeltal_Pain1 ;
+    CardiovascularDiseaseOntology:has_Odynophagia CardiovascularDiseaseOntology:Odynophagia1 ;
+    CardiovascularDiseaseOntology:has_Pneumonia CardiovascularDiseaseOntology:Pneumonia1 ;
+    CardiovascularDiseaseOntology:has_Pulmonary_Embolism CardiovascularDiseaseOntology:Pulmonary_Embolism1 ;
+    CardiovascularDiseaseOntology:has_Shingles CardiovascularDiseaseOntology:Shingles1 ;
+    CardiovascularDiseaseOntology:has_Stress_Traumas CardiovascularDiseaseOntology:Stress_Traumas1 ;
+    CardiovascularDiseaseOntology:has_Tension_Pneumothorax CardiovascularDiseaseOntology:Tension_Pneumothorax1 ;
+    CardiovascularDiseaseOntology:has_Thoracic_Aortic_Dissection CardiovascularDiseaseOntology:Thoracic_Aortic_Dissection1 .
+
+CardiovascularDiseaseOntology:Chest_Radiograph_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Chest_Radiograph_Exam1 a CardiovascularDiseaseOntology:Chest_Radiograph_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Chest_X-ray_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Child_Specialist_Practitioner_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Practitioner_Role .
+
+CardiovascularDiseaseOntology:Chronic_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Disease .
+
+CardiovascularDiseaseOntology:Chronic_Heart_Failure a owl:Class ;
+    rdfs:comment """Chronic heart failureis very common. Symptoms appear slowly over time and gradually worsen.
+If symptoms such as shortness of breath worsen within a very short time in a patient with chronic heart failure, we call it an episode of acute heart failure""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Heart_Failure .
+
+CardiovascularDiseaseOntology:Cogneital_Heart_Diseases_ICD-10_Code a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:ICD-10 .
+
+CardiovascularDiseaseOntology:Complete_Blood_Count_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:Complete_Blood_Count_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:Complete_Blood_Count_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Congenital_Heart_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Coughing_Wheezing a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Creatine_Kinase_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:D-dimer_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:DASH_Diets a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diet .
+
+CardiovascularDiseaseOntology:Depression a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Problems .
+
+CardiovascularDiseaseOntology:Depression_and_Traumatic_Stress a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Diabetes_Mellitus a owl:Class ;
+    rdfs:comment "Patients aged 30–40 years with duration of diabetes > 20 years/HbA1c > 75 mmol/mol/persistent albuminuria > 30 mg/day or eGFR < 60 ml/min/proliferative retinopathy/treated hypertension/current smoking/autonomic neuropathy/total cholesterol > 5 mmol/l with reduced HDL/central obesity/family history of premature CVD" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Diabetes_Types_II a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diabetes_Type .
+
+CardiovascularDiseaseOntology:Diaphoresis_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Dysphagia a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease .
+
+CardiovascularDiseaseOntology:Echocardiography_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Electrocardiogram_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Electrocardiogram_Exam1 a CardiovascularDiseaseOntology:Electrocardiogram_Exam,
+        CardiovascularDiseaseOntology:Physical_Exam,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Electrolytes_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:Electrolytes_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:Electrolytes_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Elevated_Blood_Pressure a owl:Class ;
+    rdfs:comment """Normal Blood Pressure:
+Systolic: (Upper number) = between 120-129 mm Hg
+Diastolic: (Lower number) =<80 mm Hg""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:Endocarditis_Inflammation a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:Eosinophilic_Myocarditis a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:Esophageal_Rupture a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Serious_Causes .
+
+CardiovascularDiseaseOntology:Excessive_Alcohol_Consumption a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Family_History_of_CVD a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Fatigue a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Feeling_Dizzy a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Female a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Gender_or_Sex .
+
+CardiovascularDiseaseOntology:General_Department a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Departments .
+
+CardiovascularDiseaseOntology:Genetic_Predisposition a owl:Class ;
+    rdfs:comment "Approximately 40% of the risk for cardiovascular disease lies in hereditary factors.1 DNA, located within genes, is hereby crucial. Molecular biology or cytogenetic tests can determine ones’ predisposition from genetic material." ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Head_Nurse_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Nurse_Role .
+
+CardiovascularDiseaseOntology:Headache a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Heart_Attack a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Heart_Attack_ICD-10_Code a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:ICD-10 .
+
+CardiovascularDiseaseOntology:Heartburn a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease .
+
+CardiovascularDiseaseOntology:Hemorrhagic a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Stroke .
+
+CardiovascularDiseaseOntology:Hemorrhagic1 a CardiovascularDiseaseOntology:Cardiovascular_Diseases,
+        CardiovascularDiseaseOntology:Coronary_Artery_Diseases,
+        CardiovascularDiseaseOntology:Hemorrhagic,
+        CardiovascularDiseaseOntology:Stroke,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:normalizedBy_OutPatient_Care CardiovascularDiseaseOntology:Surgical_Clipping ;
+    CardiovascularDiseaseOntology:normalizedBy_PreHospital_Care CardiovascularDiseaseOntology:Antihypertensive_Agents .
+
+CardiovascularDiseaseOntology:High_Blood_Pressure-HyperTension_Stage-1 a owl:Class ;
+    rdfs:comment """High Blood Pressure Stage-1:
+Systolic (Upper number): between 130-139 mm Hg
+Diastolic (Lower number): between 80-89 mm Hg""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:High_Blood_Pressure-HyperTension_Stage-2 a owl:Class ;
+    rdfs:comment """High Blood Pressure Stage-2:
+Systolic (Upper number): Ranged [140 or Higher] mm Hg
+Diastolic (Lower number): Ranged [90 or Higher] mm Hg""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:Hole_In_Heart a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Hospital_Care_Management a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Management .
+
+CardiovascularDiseaseOntology:Hypertension a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Hypertensive_Crisis a owl:Class ;
+    rdfs:comment """Hypertensive Crisis (Consult your docotor immediately):
+Systolic (Upper number): Ranged [Higher than 180] mm Hg
+Diastolic (Lower number): Ranged [Higher than 120] mm Hg""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:Hypotension a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Hypotension_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Inflammatory_Cardiomegaly a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:Intermittent_Fasting a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Preventive_Measures .
+
+CardiovascularDiseaseOntology:Ischemic_Heart_Disease a owl:Class ;
+    rdfs:comment "Ischemic strokes are caused by interruption of the blood supply to the brain, while hemorrhagic strokes result from the rupture of a blood vessel or an abnormal vascular structure. About 87% of strokes are ischemic, the rest being hemorrhagic." ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Stroke .
+
+CardiovascularDiseaseOntology:Junior_Practitioner_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Practitoner_Role .
+
+CardiovascularDiseaseOntology:Lack_of_Appetite a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Life_Style_Changes_Treatment a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Treatment .
+
+CardiovascularDiseaseOntology:Liver_Enzymes_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:Liver_Enzymes_Test1 a CardiovascularDiseaseOntology:Blood_Tests,
+        CardiovascularDiseaseOntology:Liver_Enzymes_Test,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:MRI_Scanning_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Magnesium_Supplementation a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Dietry_Supplements .
+
+CardiovascularDiseaseOntology:Male a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Gender_or_Sex .
+
+CardiovascularDiseaseOntology:Medical_Consultant_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Surgeon_Practitioner_Role .
+
+CardiovascularDiseaseOntology:Mediterranean_Diets a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diet .
+
+CardiovascularDiseaseOntology:Muscle_or_Skeltal_Pain a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Problems .
+
+CardiovascularDiseaseOntology:Myocarditis a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Inflammatory_Heart_Disease .
+
+CardiovascularDiseaseOntology:Nausea a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Niacin_Supplementation a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Dietry_Supplements .
+
+CardiovascularDiseaseOntology:Non-alcohoolic_Fatty_Liver_Disease a owl:Class ;
+    rdfs:comment "Nonalcoholic fatty liver disease (NAFLD) is associated with an increased risk for future cardiovascular disease (CVD), including coronary heart disease (CHD), heart failure, stroke, and arrhythmia.1" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Normal_Blood_Pressure a owl:Class ;
+    rdfs:comment """Normal Blood Pressure:
+Systolic mm Hg (Upper number)=<120
+Diastolic mm Hg (Lower number)=<80""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Pressure_Category .
+
+CardiovascularDiseaseOntology:Nose_Bleed a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Obesity a owl:Class ;
+    rdfs:comment "Obesity is associated with an increased risk of developing cardiovascular disease (CVD), particularly heart failure (HF) and coronary heart disease (CHD)" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Odynophagia a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease .
+
+CardiovascularDiseaseOntology:Out_Patient_Care_Management a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Management .
+
+CardiovascularDiseaseOntology:Panic_Attack a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Patient_Body_Weight a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Patient_Height a owl:Class,
+        owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Diagnostic_Test_Results ;
+    rdfs:range xsd:integer ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Peripheral_Artery_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Physical_Activity a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Preventive_Measures .
+
+CardiovascularDiseaseOntology:Physical_Inactivity a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Plant-based_Diets a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diet .
+
+CardiovascularDiseaseOntology:Pneumonia a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Problems .
+
+CardiovascularDiseaseOntology:Poor_Sleep a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Pre_Hospital_Care_Management a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Management .
+
+CardiovascularDiseaseOntology:Psychosocial_Factors a owl:Class ;
+    rdfs:comment "Rapidly accruing evidence from a diversity of disciplines supports the hypothesis that psychosocial factors are related to morbidity and mortality due to cardiovascular diseases" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Pulmonary_Embolism a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Serious_Causes .
+
+CardiovascularDiseaseOntology:Race_and_Ethnicity a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Renal_Artery_Stenosis a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Respiratory_Distress a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Respiratory_Distress1 a CardiovascularDiseaseOntology:Respiratory_Distress,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Rheumatic_Heart_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Senior_Practitioner_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:General_Practitoner_Role .
+
+CardiovascularDiseaseOntology:Serum_Lipase_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:Shingles a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Problems .
+
+CardiovascularDiseaseOntology:Shortness_of_Breath a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Stenting_Treatment a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Treatment .
+
+CardiovascularDiseaseOntology:Stress_Traumas a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Problems .
+
+CardiovascularDiseaseOntology:Swollen_Limbs a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Tension_Pneumothorax a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Serious_Causes .
+
+CardiovascularDiseaseOntology:Third_Heart_Sound_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Physical_Exam .
+
+CardiovascularDiseaseOntology:Thoracic_Aortic_Dissection a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Serious_Causes .
+
+CardiovascularDiseaseOntology:Thromboembolic_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Tobocco_Usage a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Triage_Nurse1 a CardiovascularDiseaseOntology:Role,
+        CardiovascularDiseaseOntology:Triage_Nurse_Role,
+        owl:NamedIndividual ;
+    CardiovascularDiseaseOntology:check_Medical_History CardiovascularDiseaseOntology:Patient_Medical_History1 ;
+    CardiovascularDiseaseOntology:examine_Cardiac_Diseases CardiovascularDiseaseOntology:Angina1 ;
+    CardiovascularDiseaseOntology:examine_Sign_Symptoms CardiovascularDiseaseOntology:Chest_Pain1 ;
+    CardiovascularDiseaseOntology:prescribe_Medication CardiovascularDiseaseOntology:Aspirin ;
+    CardiovascularDiseaseOntology:recommend_Blood_Test CardiovascularDiseaseOntology:Complete_Blood_Count_Test1 ;
+    CardiovascularDiseaseOntology:recommend_Physical_Test CardiovascularDiseaseOntology:Chest_Radiograph_Exam1 .
+
+CardiovascularDiseaseOntology:Triage_Nurse_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role .
+
+CardiovascularDiseaseOntology:Troponin_I_or_T_Test a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Blood_Tests .
+
+CardiovascularDiseaseOntology:Unhealthy_Diet a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Valvular_Heart_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Venous_Thrombosis a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Weight_Gain a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:eGFR-Stage-1 a owl:Class ;
+    rdfs:comment "Normal kidney function Some signs of kidney damage, such as protein in urine (i.e., pee) or physical damage to the kidneys." ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR .
+
+CardiovascularDiseaseOntology:eGFR-Stage-2 a owl:Class ;
+    rdfs:comment "Mild loss of kidney function Signs of kidney damage, such as protein in urine or physical damage to the kidneys" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR .
+
+CardiovascularDiseaseOntology:eGFR-Stage-3 a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR .
+
+<http://www.semanticweb.org/abid/ontologies/2023/7/CardiovascularDiseaseOntology#eGFR-[Value_Ranged_[45-59]]-Moderate_Kidney_fucntion> a CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR,
+        CardiovascularDiseaseOntology:eGFR-Stage-3,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:hasAdditional_Nurse_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Additional_Nurse_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:Medical_Nurse_Role .
+
+CardiovascularDiseaseOntology:hasPatient_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Role ;
+    owl:inverseOf CardiovascularDiseaseOntology:isAssigned_Role .
+
+CardiovascularDiseaseOntology:has_Cardiac_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Disease .
+
+CardiovascularDiseaseOntology:has_Chest_Pain_Causes a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Chest_Pain_Causes ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiac_Diseases_Causes .
+
+CardiovascularDiseaseOntology:has_Common_Causes a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Common_Causes ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Chest_Pain_Causes .
+
+CardiovascularDiseaseOntology:has_Diabetes_Type a owl:ObjectProperty ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:has_Diagnostic_Methods a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Diagnostic_Methods .
+
+CardiovascularDiseaseOntology:has_Gender_or_Sex a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Gender_or_Sex ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_General_Practitoner_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:General_Practitoner_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Medical_Practitioner_Role .
+
+CardiovascularDiseaseOntology:has_HDL_Cholesterol a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:HDL_Cholesterol ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Heart_Failure a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Heart_Failure ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_ICD-Code a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Disease ;
+    rdfs:range CardiovascularDiseaseOntology:ICD-10 .
+
+CardiovascularDiseaseOntology:has_Medical_Tests a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Medical_Tests ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Diagnostic_Methods .
+
+CardiovascularDiseaseOntology:has_Occupational_Therapist_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Occupational_Therapist_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Role .
+
+CardiovascularDiseaseOntology:has_Stroke a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Stroke ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Coronary_Artery_Diseases .
+
+CardiovascularDiseaseOntology:normalizeBy_Remedies a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Cardiac_Diseases_Causes ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Care_Remdies .
+
+CardiovascularDiseaseOntology:Anti-diabetic_Medication a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medication .
+
+CardiovascularDiseaseOntology:Country a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Geographic_Location .
+
+CardiovascularDiseaseOntology:Current_Smoking_Status a owl:Class ;
+    rdfs:comment "Added" .
+
+CardiovascularDiseaseOntology:Diabetes_Type-I a CardiovascularDiseaseOntology:Diabetes_Type,
+        CardiovascularDiseaseOntology:Diabetes_Type-I,
+        CardiovascularDiseaseOntology:Signs_and_Symptoms,
+        owl:Class,
+        owl:NamedIndividual ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diabetes_Type .
+
+CardiovascularDiseaseOntology:HDL_Cholesterol a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:HDL_Cholesterol-Desireable a owl:Class ;
+    rdfs:comment """Men: 60 mg/dL (1.6 mmol/L) or above
+Women: 60 mg/dL (1.6 mmol/L) or above""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:HDL_Cholesterol .
+
+CardiovascularDiseaseOntology:HDL_Cholesterol_At_Risk a owl:Class ;
+    rdfs:comment """Men: Less than 40 mg/dL (1.0 mmol/L)
+Women: Less than 50 mg/dL (1.3 mmol/L)""" ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:HDL_Cholesterol .
+
+CardiovascularDiseaseOntology:Heart_Surgery_Treatment a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Treatment .
+
+CardiovascularDiseaseOntology:Medical_Departments a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Health_Organization .
+
+CardiovascularDiseaseOntology:Medical_Specialization a owl:Class .
+
+CardiovascularDiseaseOntology:Medical_Tests a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diagnostic_Methods .
+
+CardiovascularDiseaseOntology:Public_Hospital a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Health_Organization .
+
+CardiovascularDiseaseOntology:Surgeon_Practitioner_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Practitioner_Role .
+
+CardiovascularDiseaseOntology:follow_Diet a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Diet ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:followPreventive_Measures .
+
+CardiovascularDiseaseOntology:has_Castroesophageal_Reflux_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Common_Causes .
+
+CardiovascularDiseaseOntology:has_Estimated_Glomerular_Filteration_Rate-eGFR a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Medical_Practitioner_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Medical_Practitioner_Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Role .
+
+CardiovascularDiseaseOntology:involve_In a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiac_Management .
+
+CardiovascularDiseaseOntology:take_Dietry_Supplements a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Dietry_Supplements ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:followPreventive_Measures .
+
+CardiovascularDiseaseOntology:take_Medication a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Medication ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:followPreventive_Measures .
+
+CardiovascularDiseaseOntology:Additional_Nurse_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Nurse_Role .
+
+CardiovascularDiseaseOntology:Coronary_Artery_Diseases a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Cultural_Competence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence .
+
+CardiovascularDiseaseOntology:Diabetes_Type a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Diagnostic_Methods a owl:Class .
+
+CardiovascularDiseaseOntology:Educational_Competence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Competence .
+
+CardiovascularDiseaseOntology:Implant_Devices_Treatment a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Treatment .
+
+CardiovascularDiseaseOntology:Language a owl:Class .
+
+CardiovascularDiseaseOntology:Medical_Ward a owl:Class .
+
+CardiovascularDiseaseOntology:Occupational_Competence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence .
+
+CardiovascularDiseaseOntology:Occupational_Therapist_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role .
+
+CardiovascularDiseaseOntology:Patient_Medical_History1 a CardiovascularDiseaseOntology:Diagnostic_Methods,
+        CardiovascularDiseaseOntology:Medical_History,
+        owl:NamedIndividual .
+
+CardiovascularDiseaseOntology:Work_Experience_Competence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Competence .
+
+CardiovascularDiseaseOntology:has_Inflammatory_Heart_Disease a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Inflammatory_Heart_Disease ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) .
+
+CardiovascularDiseaseOntology:has_Treatment a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Treatment .
+
+CardiovascularDiseaseOntology:Blood_Pressure_Reduce_Medications a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medication .
+
+CardiovascularDiseaseOntology:Gender_or_Sex a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:General_Practitoner_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Practitioner_Role .
+
+CardiovascularDiseaseOntology:Heart_Failure a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:ICD-10 a owl:Class .
+
+CardiovascularDiseaseOntology:Remedies_for_PreHospital_Care a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Care_Remdies .
+
+CardiovascularDiseaseOntology:Stroke a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Coronary_Artery_Diseases .
+
+CardiovascularDiseaseOntology:followPreventive_Measures a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Preventive_Measures .
+
+CardiovascularDiseaseOntology:has_Blood_Pressure_Category a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Blood_Pressure_Category ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:has_Role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Role .
+
+CardiovascularDiseaseOntology:has_Serious_Causes a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Serious_Causes ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Chest_Pain_Causes .
+
+CardiovascularDiseaseOntology:Blood_Pressure_Category a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Cardiac_Disease a owl:Class .
+
+CardiovascularDiseaseOntology:Competence a owl:Class .
+
+CardiovascularDiseaseOntology:Geographic_Location a owl:Class .
+
+CardiovascularDiseaseOntology:Occupational_Group a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Competence .
+
+CardiovascularDiseaseOntology:Preventive_Measures a owl:Class .
+
+CardiovascularDiseaseOntology:Process a owl:Class .
+
+CardiovascularDiseaseOntology:Remedies_for_OutPatient_Care a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Care_Remdies .
+
+CardiovascularDiseaseOntology:Specialist_Area_Comptence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence .
+
+CardiovascularDiseaseOntology:has_Physical_Problems a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Signs_and_Symptoms ;
+    rdfs:range CardiovascularDiseaseOntology:Physical_Problems ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Common_Causes .
+
+CardiovascularDiseaseOntology:Cardiac_Management a owl:Class .
+
+CardiovascularDiseaseOntology:Castroesophageal_Reflux_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Common_Causes .
+
+CardiovascularDiseaseOntology:Diet a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Preventive_Measures .
+
+CardiovascularDiseaseOntology:Dietry_Supplements a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Preventive_Measures .
+
+CardiovascularDiseaseOntology:Estimated_Glomerular_Filteration_Rate-eGFR a owl:Class ;
+    rdfs:comment "eGFR (estimated glomerular filtration rate) is a measure of how well your kidneys are working. Your eGFR is an estimated number based on a blood test and your age, sex, and body type." ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Health_Organization a owl:Class .
+
+CardiovascularDiseaseOntology:Medical_Nurse_Role a owl:Class,
+        owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Person_Profile ;
+    rdfs:range CardiovascularDiseaseOntology:Medical_Nurse_Role ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Role .
+
+CardiovascularDiseaseOntology:has_Blood_Tests a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Blood_Tests ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Medical_Tests .
+
+CardiovascularDiseaseOntology:Cardiac_Emergency_Department_Goal a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Goals .
+
+CardiovascularDiseaseOntology:General_Competence a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence .
+
+CardiovascularDiseaseOntology:Medical_History a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Diagnostic_Methods .
+
+CardiovascularDiseaseOntology:Medical_Practitioner_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role .
+
+CardiovascularDiseaseOntology:Inflammatory_Heart_Disease a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiovascular_Diseases .
+
+CardiovascularDiseaseOntology:Cardiac_Care_Remdies a owl:Class .
+
+CardiovascularDiseaseOntology:Educational_Field a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Occupational_Competence .
+
+CardiovascularDiseaseOntology:Serious_Causes a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Chest_Pain_Causes .
+
+CardiovascularDiseaseOntology:has_Physical_Exams a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Physical_Exam ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Medical_Tests .
+
+CardiovascularDiseaseOntology:Common_Causes a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Chest_Pain_Causes .
+
+CardiovascularDiseaseOntology:Competence_Proficiency_Level a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Competence .
+
+CardiovascularDiseaseOntology:Medication a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Preventive_Measures .
+
+CardiovascularDiseaseOntology:Physical_Problems a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Common_Causes .
+
+CardiovascularDiseaseOntology:Goals a owl:Class .
+
+CardiovascularDiseaseOntology:Blood_Tests a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Tests .
+
+CardiovascularDiseaseOntology:has_Signs_and_Symptoms a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Signs_and_Symptoms .
+
+CardiovascularDiseaseOntology:Chest_Pain_Causes a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Cardiac_Diseases_Causes .
+
+CardiovascularDiseaseOntology:Treatment a owl:Class .
+
+CardiovascularDiseaseOntology:Cardiac_Diseases_Causes a owl:Class .
+
+CardiovascularDiseaseOntology:has_Risk_Factors_Indicators a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Risk_Factors_Indicators .
+
+CardiovascularDiseaseOntology:Risk_Factors_Indicators a owl:Class .
+
+CardiovascularDiseaseOntology:has_Cardiovascular_Diseases_\(DVDs\) a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain CardiovascularDiseaseOntology:Patient_Role ;
+    rdfs:range CardiovascularDiseaseOntology:Cardiovascular_Diseases ;
+    rdfs:subPropertyOf CardiovascularDiseaseOntology:has_Cardiac_Disease .
+
+CardiovascularDiseaseOntology:Physical_Exam a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Medical_Tests .
+
+CardiovascularDiseaseOntology:Person_Profile a owl:Class .
+
+CardiovascularDiseaseOntology:Role a owl:Class .
+
+CardiovascularDiseaseOntology:Diagnostic_Test_Results a owl:Class .
+
+CardiovascularDiseaseOntology:Cardiovascular_Diseases a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Chronic_Disease .
+
+CardiovascularDiseaseOntology:Signs_and_Symptoms a owl:Class .
+
+CardiovascularDiseaseOntology:Patient_Role a owl:Class ;
+    rdfs:subClassOf CardiovascularDiseaseOntology:Role .
+
